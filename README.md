@@ -3,6 +3,7 @@
 | # | Title | Solution | Runtime |
 |---| ----- | -------- | ------- |
 |27|[ Remove Element](https://leetcode.com/problems/remove-element/)|[Java](./solutions/27.%20Remove%20Element.java)|0 ms|
+|283|[ Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Java](./solutions/283.%20Move%20Zeroes.java)|0 ms|
 |485|[ Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Java](./solutions/485.%20Max%20Consecutive%20Ones.java)||
 |941|[ Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|[Java](./solutions/941.%20Valid%20Mountain%20Array.java)||
 |977|[ Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Java](./solutions/977.%20Squares%20of%20a%20Sorted%20Array.java)|4 ms|
