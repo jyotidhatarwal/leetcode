@@ -11,6 +11,7 @@
 |67|[ Add Binary](https://leetcode.com/problems/add-binary/)|[Java](./solutions/67.%20Add%20Binary.java)|1 ms|
 |118|[ Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[Java](./solutions/118.%20Pascal's%20Triangle.java)|0 ms|
 |141|[ Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Java](./solutions/141.%20Linked%20List%20Cycle.java)|0 ms|
+|169|[ Majority Element](https://leetcode.com/problems/majority-element/)|[Java](./solutions/169.%20Majority%20Element.java)|3 ms|
 |191|[ Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[Java](./solutions/191.%20Number%20of%201%20Bits.java)||
 |283|[ Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Java](./solutions/283.%20Move%20Zeroes.java)|0 ms|
 |414|[ Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|[Java](./solutions/414.%20Third%20Maximum%20Number.java)|2 ms|
