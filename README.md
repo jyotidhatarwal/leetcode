@@ -22,6 +22,7 @@
 |485|[ Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Java](./solutions/485.%20Max%20Consecutive%20Ones.java)||
 |498|[ Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|[Java](./solutions/498.%20Diagonal%20Traverse.java)|2 ms|
 |557|[ Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[Java](./solutions/557.%20Reverse%20Words%20in%20a%20String%20III.java)|12 ms|
+|594|[ Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/)|[Java](./solutions/594.%20Longest%20Harmonious%20Subsequence.java)||
 |724|[ Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[Java](./solutions/724.%20Find%20Pivot%20Index.java)||
 |899|[ Orderly Queue](https://leetcode.com/problems/orderly-queue/)|[Java](./solutions/899.%20Orderly%20Queue.java)|6 ms|
 |905|[ Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[Java](./solutions/905.%20Sort%20Array%20By%20Parity.java)|1 ms|
