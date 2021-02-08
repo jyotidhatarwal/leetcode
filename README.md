@@ -18,6 +18,7 @@
 |191|[ Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[Java](./solutions/191.%20Number%20of%201%20Bits.java)||
 |199|[ Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|[Java](./solutions/199.%20Binary%20Tree%20Right%20Side%20View.java)||
 |283|[ Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Java](./solutions/283.%20Move%20Zeroes.java)|0 ms|
+|284|[ Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)|[Java](./solutions/284.%20Peeking%20Iterator.java)||
 |414|[ Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|[Java](./solutions/414.%20Third%20Maximum%20Number.java)|2 ms|
 |448|[ Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Java](./solutions/448.%20Find%20All%20Numbers%20Disappeared%20in%20an%20Array.java)||
 |485|[ Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Java](./solutions/485.%20Max%20Consecutive%20Ones.java)||
