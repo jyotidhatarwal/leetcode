@@ -38,6 +38,7 @@
 |1295|[ Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)|[Java](./solutions/1295.%20Find%20Numbers%20with%20Even%20Number%20of%20Digits.java)||
 |1299|[ Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/)|[Java](./solutions/1299.%20Replace%20Elements%20with%20Greatest%20Element%20on%20Right%20Side.java)||
 |1346|[ Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/)|[Java](./solutions/1346.%20Check%20If%20N%20and%20Its%20Double%20Exist.java)||
+|1497|[ Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/)|[Java](./solutions/1497.%20Check%20If%20Array%20Pairs%20Are%20Divisible%20by%20k.java)|N/A|
 |1663|[ Smallest String With A Given Numeric Value](https://leetcode.com/problems/smallest-string-with-a-given-numeric-value/)|[Java](./solutions/1663.%20Smallest%20String%20With%20A%20Given%20Numeric%20Value.java)||
 |1675|[ Minimize Deviation in Array](https://leetcode.com/problems/minimize-deviation-in-array/)|[Java](./solutions/1675.%20Minimize%20Deviation%20in%20Array.java)|163 ms|
 |1680|[ Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/)|[Java](./solutions/1680.%20Concatenation%20of%20Consecutive%20Binary%20Numbers.java)|1814 ms|
