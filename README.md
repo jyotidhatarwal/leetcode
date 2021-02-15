@@ -33,6 +33,7 @@
 |821|[ Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)|[Java](./solutions/821.%20Shortest%20Distance%20to%20a%20Character.java)||
 |899|[ Orderly Queue](https://leetcode.com/problems/orderly-queue/)|[Java](./solutions/899.%20Orderly%20Queue.java)|6 ms|
 |905|[ Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[Java](./solutions/905.%20Sort%20Array%20By%20Parity.java)|1 ms|
+|912|[ Sort an Array](https://leetcode.com/problems/sort-an-array/)|[Java](./solutions/912.%20Sort%20an%20Array.java)|3 ms|
 |925|[ Long Pressed Name](https://leetcode.com/problems/long-pressed-name/)|[Java](./solutions/925.%20Long%20Pressed%20Name.java)|1 ms|
 |941|[ Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|[Java](./solutions/941.%20Valid%20Mountain%20Array.java)||
 |977|[ Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Java](./solutions/977.%20Squares%20of%20a%20Sorted%20Array.java)|4 ms|
