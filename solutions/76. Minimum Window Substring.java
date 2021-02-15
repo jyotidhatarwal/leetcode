@@ -1,46 +1,58 @@
-            char c = s.charAt(i);
-            if (dictT.containsKey(c)) {
-                filteredS.add(new Pair<Integer, Character>(i, c));
-            }
+class Solution {
+    public String minWindow(String s, String t) {
+​
+        String ans ="";
+        HashMap<Character,Integer> map2 = new HashMap<>();
+        for(int i=0;i<t.length();i++){
+            char ch = t.charAt(i);
+            map2.put(ch,map2.getOrDefault(ch,0)+1);
         }
-​
-        int l = 0, r = 0, formed = 0;
-        Map<Character, Integer> windowCounts = new HashMap<Character, Integer>();  
-        int[] ans = {-1, 0, 0};
-​
-        // Look for the characters only in the filtered list instead of entire s.
-        // This helps to reduce our search.
-        // Hence, we follow the sliding window approach on as small list.
-        while (r < filteredS.size()) {
-            char c = filteredS.get(r).getValue();
-            int count = windowCounts.getOrDefault(c, 0);
-            windowCounts.put(c, count + 1);
-​
-            if (dictT.containsKey(c) && windowCounts.get(c).intValue() == dictT.get(c).intValue()) {
-                formed++;
-            }
-​
-            // Try and contract the window till the point where it ceases to be 'desirable'.
-            while (l <= r && formed == required) {
-                c = filteredS.get(l).getValue();
-​
-                // Save the smallest window until now.
-                int end = filteredS.get(r).getKey();
-                int start = filteredS.get(l).getKey();
-                if (ans[0] == -1 || end - start + 1 < ans[0]) {
-                    ans[0] = end - start + 1;
-                    ans[1] = start;
-                    ans[2] = end;
+        HashMap<Character,Integer> map1 = new HashMap<>();
+        int matchCount=0;
+        int desiredCount = t.length();
+        int i=-1;
+        int j=-1;
+        // acquire
+        while(true){
+            boolean f1 = false;
+            boolean f2 = false;
+            while(i<s.length()-1 && matchCount <desiredCount){
+                i++;
+                char ch = s.charAt(i);
+                map1.put(ch,map1.getOrDefault(ch,0)+1);
+                if(map1.getOrDefault(ch,0) <= map2.getOrDefault(ch,0)){
+                    matchCount++;
                 }
-​
-                windowCounts.put(c, windowCounts.get(c) - 1);
-                if (dictT.containsKey(c) && windowCounts.get(c).intValue() < dictT.get(c).intValue()) {
-                    formed--;
-                }
-                l++;
+                f1 = true;
             }
-            r++;   
+            // collect answer and release
+            while(j<i && matchCount == desiredCount){
+                String potentialAnswer = s.substring(j+1,i+1);
+                if(ans.length()==0 || potentialAnswer.length() <ans.length()){
+                    ans = potentialAnswer;
+                }
+                j++;
+                char ch = s.charAt(j);
+                if(map1.get(ch)==1){
+                    map1.remove(ch);
+                }else{
+                    map1.put(ch,map1.get(ch)-1);
+                }
+                if(map1.getOrDefault(ch,0) < map2.getOrDefault(ch,0)){
+                    matchCount--;
+                }
+                f2 = true;
+            }
+            if(f1 == false && f2 == false){
+                break;
+            }
+            
         }
-        return ans[0] == -1 ? "" : s.substring(ans[1], ans[2] + 1);
+        
+        
+        
+        
+        
+        return ans;
     }
 }
