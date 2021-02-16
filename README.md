@@ -29,6 +29,7 @@
 |557|[ Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[Java](./solutions/557.%20Reverse%20Words%20in%20a%20String%20III.java)|12 ms|
 |594|[ Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/)|[Java](./solutions/594.%20Longest%20Harmonious%20Subsequence.java)||
 |724|[ Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[Java](./solutions/724.%20Find%20Pivot%20Index.java)||
+|784|[ Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)|[Java](./solutions/784.%20Letter%20Case%20Permutation.java)||
 |785|[ Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)|[Java](./solutions/785.%20Is%20Graph%20Bipartite%3F.java)|1 ms|
 |821|[ Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)|[Java](./solutions/821.%20Shortest%20Distance%20to%20a%20Character.java)||
 |899|[ Orderly Queue](https://leetcode.com/problems/orderly-queue/)|[Java](./solutions/899.%20Orderly%20Queue.java)|6 ms|
