@@ -24,6 +24,7 @@
 |242|[ Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Java](./solutions/242.%20Valid%20Anagram.java)|11 ms|
 |283|[ Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Java](./solutions/283.%20Move%20Zeroes.java)|0 ms|
 |284|[ Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)|[Java](./solutions/284.%20Peeking%20Iterator.java)||
+|413|[ Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)|[Java](./solutions/413.%20Arithmetic%20Slices.java)|0 ms|
 |414|[ Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|[Java](./solutions/414.%20Third%20Maximum%20Number.java)|2 ms|
 |443|[ String Compression](https://leetcode.com/problems/string-compression/)|[Java](./solutions/443.%20String%20Compression.java)|5 ms|
 |448|[ Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Java](./solutions/448.%20Find%20All%20Numbers%20Disappeared%20in%20an%20Array.java)||
