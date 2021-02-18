@@ -25,6 +25,7 @@
 |242|[ Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Java](./solutions/242.%20Valid%20Anagram.java)|11 ms|
 |283|[ Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Java](./solutions/283.%20Move%20Zeroes.java)|0 ms|
 |284|[ Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)|[Java](./solutions/284.%20Peeking%20Iterator.java)||
+|290|[ Word Pattern](https://leetcode.com/problems/word-pattern/)|[Java](./solutions/290.%20Word%20Pattern.java)|1 ms|
 |413|[ Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)|[Java](./solutions/413.%20Arithmetic%20Slices.java)|0 ms|
 |414|[ Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|[Java](./solutions/414.%20Third%20Maximum%20Number.java)|2 ms|
 |443|[ String Compression](https://leetcode.com/problems/string-compression/)|[Java](./solutions/443.%20String%20Compression.java)|5 ms|
