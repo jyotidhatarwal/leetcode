@@ -43,6 +43,7 @@
 |912|[ Sort an Array](https://leetcode.com/problems/sort-an-array/)|[Java](./solutions/912.%20Sort%20an%20Array.java)|3 ms|
 |925|[ Long Pressed Name](https://leetcode.com/problems/long-pressed-name/)|[Java](./solutions/925.%20Long%20Pressed%20Name.java)|1 ms|
 |941|[ Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|[Java](./solutions/941.%20Valid%20Mountain%20Array.java)||
+|974|[ Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)|[Java](./solutions/974.%20Subarray%20Sums%20Divisible%20by%20K.java)|17 ms|
 |977|[ Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Java](./solutions/977.%20Squares%20of%20a%20Sorted%20Array.java)|4 ms|
 |1004|[ Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)|[Java](./solutions/1004.%20Max%20Consecutive%20Ones%20III.java)|2 ms|
 |1016|[ Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/)|[Java](./solutions/1016.%20Binary%20String%20With%20Substrings%20Representing%201%20To%20N.java)|0 ms|
