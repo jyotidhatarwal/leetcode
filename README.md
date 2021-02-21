@@ -47,6 +47,7 @@
 |941|[ Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|[Java](./solutions/941.%20Valid%20Mountain%20Array.java)||
 |974|[ Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)|[Java](./solutions/974.%20Subarray%20Sums%20Divisible%20by%20K.java)|17 ms|
 |977|[ Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Java](./solutions/977.%20Squares%20of%20a%20Sorted%20Array.java)|4 ms|
+|991|[ Broken Calculator](https://leetcode.com/problems/broken-calculator/)|[Java](./solutions/991.%20Broken%20Calculator.java)|0 ms|
 |1004|[ Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)|[Java](./solutions/1004.%20Max%20Consecutive%20Ones%20III.java)|2 ms|
 |1016|[ Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/)|[Java](./solutions/1016.%20Binary%20String%20With%20Substrings%20Representing%201%20To%20N.java)|0 ms|
 |1051|[ Height Checker](https://leetcode.com/problems/height-checker/)|[Java](./solutions/1051.%20Height%20Checker.java)||
