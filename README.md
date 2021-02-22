@@ -60,6 +60,7 @@
 |1299|[ Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/)|[Java](./solutions/1299.%20Replace%20Elements%20with%20Greatest%20Element%20on%20Right%20Side.java)||
 |1346|[ Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/)|[Java](./solutions/1346.%20Check%20If%20N%20and%20Its%20Double%20Exist.java)||
 |1497|[ Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/)|[Java](./solutions/1497.%20Check%20If%20Array%20Pairs%20Are%20Divisible%20by%20k.java)|N/A|
+|1502|[ Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)|[Java](./solutions/1502.%20Can%20Make%20Arithmetic%20Progression%20From%20Sequence.java)|1 ms|
 |1663|[ Smallest String With A Given Numeric Value](https://leetcode.com/problems/smallest-string-with-a-given-numeric-value/)|[Java](./solutions/1663.%20Smallest%20String%20With%20A%20Given%20Numeric%20Value.java)||
 |1675|[ Minimize Deviation in Array](https://leetcode.com/problems/minimize-deviation-in-array/)|[Java](./solutions/1675.%20Minimize%20Deviation%20in%20Array.java)|163 ms|
 |1680|[ Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/)|[Java](./solutions/1680.%20Concatenation%20of%20Consecutive%20Binary%20Numbers.java)|1814 ms|
