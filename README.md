@@ -24,6 +24,7 @@
 |191|[ Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[Java](./solutions/191.%20Number%20of%201%20Bits.java)||
 |199|[ Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|[Java](./solutions/199.%20Binary%20Tree%20Right%20Side%20View.java)||
 |205|[ Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Java](./solutions/205.%20Isomorphic%20Strings.java)|7 ms|
+|240|[ Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[Java](./solutions/240.%20Search%20a%202D%20Matrix%20II.java)|8 ms|
 |242|[ Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Java](./solutions/242.%20Valid%20Anagram.java)|11 ms|
 |283|[ Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Java](./solutions/283.%20Move%20Zeroes.java)|0 ms|
 |284|[ Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)|[Java](./solutions/284.%20Peeking%20Iterator.java)||
