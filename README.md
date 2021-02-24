@@ -46,6 +46,7 @@
 |784|[ Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)|[Java](./solutions/784.%20Letter%20Case%20Permutation.java)||
 |785|[ Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)|[Java](./solutions/785.%20Is%20Graph%20Bipartite%3F.java)|1 ms|
 |821|[ Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)|[Java](./solutions/821.%20Shortest%20Distance%20to%20a%20Character.java)||
+|856|[ Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/)|[Java](./solutions/856.%20Score%20of%20Parentheses.java)|0 ms|
 |899|[ Orderly Queue](https://leetcode.com/problems/orderly-queue/)|[Java](./solutions/899.%20Orderly%20Queue.java)|6 ms|
 |905|[ Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[Java](./solutions/905.%20Sort%20Array%20By%20Parity.java)|1 ms|
 |912|[ Sort an Array](https://leetcode.com/problems/sort-an-array/)|[Java](./solutions/912.%20Sort%20an%20Array.java)|3 ms|
