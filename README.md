@@ -50,7 +50,7 @@
 |575|[ Distribute Candies](https://leetcode.com/problems/distribute-candies/)|[Java](./solutions/575.%20Distribute%20Candies.java)|33 ms|
 |581|[ Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)|[Java](./solutions/581.%20Shortest%20Unsorted%20Continuous%20Subarray.java)|5 ms|
 |594|[ Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/)|[Java](./solutions/594.%20Longest%20Harmonious%20Subsequence.java)||
-|645|[ Set Mismatch](https://leetcode.com/problems/set-mismatch/)|[Java](./solutions/645.%20Set%20Mismatch.java)|672 ms|
+|645|[ Set Mismatch](https://leetcode.com/problems/set-mismatch/)|[Java](./solutions/645.%20Set%20Mismatch.java)|8 ms|
 |724|[ Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[Java](./solutions/724.%20Find%20Pivot%20Index.java)||
 |781|[ Rabbits in Forest](https://leetcode.com/problems/rabbits-in-forest/)|[Java](./solutions/781.%20Rabbits%20in%20Forest.java)|2 ms|
 |784|[ Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)|[Java](./solutions/784.%20Letter%20Case%20Permutation.java)||
