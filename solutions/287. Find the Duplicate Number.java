@@ -1,12 +1,19 @@
 class Solution {
     public int findDuplicate(int[] nums) {
-        int dup = -1;
-        Arrays.sort(nums);
-        for(int i=1;i<nums.length;i++){
-            if(nums[i] == nums[i-1]){
-                dup = nums[i];
-            }
+        int slow = nums[0];
+        int fast = nums[0];
+        do{
+            slow = nums[slow];
+            fast = nums[nums[fast]];
         }
-        return dup;
+        while(slow != fast);
+            fast = nums[0];
+            while(slow != fast){
+                fast = nums[fast];
+                slow = nums[slow];
+            }
+        
+        return slow;
     }
 }
+/* This is the most optimized approach with Time Complexity O(n) and Space Complexity  O(1) */
