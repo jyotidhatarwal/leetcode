@@ -36,6 +36,7 @@
 |242|[ Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Java](./solutions/242.%20Valid%20Anagram.java)|11 ms|
 |283|[ Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Java](./solutions/283.%20Move%20Zeroes.java)|0 ms|
 |284|[ Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)|[Java](./solutions/284.%20Peeking%20Iterator.java)||
+|287|[ Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|[Java](./solutions/287.%20Find%20the%20Duplicate%20Number.java)|3 ms|
 |290|[ Word Pattern](https://leetcode.com/problems/word-pattern/)|[Java](./solutions/290.%20Word%20Pattern.java)|1 ms|
 |387|[ First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[Java](./solutions/387.%20First%20Unique%20Character%20in%20a%20String.java)|22 ms|
 |392|[ Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[Java](./solutions/392.%20Is%20Subsequence.java)|1 ms|
