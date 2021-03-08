@@ -85,6 +85,7 @@
 |1051|[ Height Checker](https://leetcode.com/problems/height-checker/)|[Java](./solutions/1051.%20Height%20Checker.java)||
 |1089|[ Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)|[Java](./solutions/1089.%20Duplicate%20Zeros.java)|1 ms|
 |1091|[ Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|[Java](./solutions/1091.%20Shortest%20Path%20in%20Binary%20Matrix.java)|20 ms|
+|1178|[ Number of Valid Words for Each Puzzle](https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/)|[Java](./solutions/1178.%20Number%20of%20Valid%20Words%20for%20Each%20Puzzle.java)|1432 ms|
 |1249|[ Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|[Java](./solutions/1249.%20Minimum%20Remove%20to%20Make%20Valid%20Parentheses.java)|16 ms|
 |1295|[ Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)|[Java](./solutions/1295.%20Find%20Numbers%20with%20Even%20Number%20of%20Digits.java)||
 |1299|[ Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/)|[Java](./solutions/1299.%20Replace%20Elements%20with%20Greatest%20Element%20on%20Right%20Side.java)||
