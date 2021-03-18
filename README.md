@@ -47,6 +47,7 @@
 |287|[ Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|[Java](./solutions/287.%20Find%20the%20Duplicate%20Number.java)|0 ms|
 |290|[ Word Pattern](https://leetcode.com/problems/word-pattern/)|[Java](./solutions/290.%20Word%20Pattern.java)|1 ms|
 |322|[ Coin Change](https://leetcode.com/problems/coin-change/)|[Java](./solutions/322.%20Coin%20Change.java)|12 ms|
+|376|[ Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)|[Java](./solutions/376.%20Wiggle%20Subsequence.java)|3 ms|
 |387|[ First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[Java](./solutions/387.%20First%20Unique%20Character%20in%20a%20String.java)|22 ms|
 |392|[ Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[Java](./solutions/392.%20Is%20Subsequence.java)|1 ms|
 |413|[ Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)|[Java](./solutions/413.%20Arithmetic%20Slices.java)|0 ms|
