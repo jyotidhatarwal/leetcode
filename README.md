@@ -71,6 +71,7 @@
 |645|[ Set Mismatch](https://leetcode.com/problems/set-mismatch/)|[Java](./solutions/645.%20Set%20Mismatch.java)|15 ms|
 |714|[ Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)|[Java](./solutions/714.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Transaction%20Fee.java)|3 ms|
 |724|[ Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[Java](./solutions/724.%20Find%20Pivot%20Index.java)||
+|746|[ Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[Java](./solutions/746.%20Min%20Cost%20Climbing%20Stairs.java)|0 ms|
 |781|[ Rabbits in Forest](https://leetcode.com/problems/rabbits-in-forest/)|[Java](./solutions/781.%20Rabbits%20in%20Forest.java)|2 ms|
 |784|[ Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)|[Java](./solutions/784.%20Letter%20Case%20Permutation.java)||
 |785|[ Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)|[Java](./solutions/785.%20Is%20Graph%20Bipartite%3F.java)|1 ms|
