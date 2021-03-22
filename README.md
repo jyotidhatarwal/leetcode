@@ -94,6 +94,7 @@
 |941|[ Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|[Java](./solutions/941.%20Valid%20Mountain%20Array.java)||
 |946|[ Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)|[Java](./solutions/946.%20Validate%20Stack%20Sequences.java)|1 ms|
 |954|[ Array of Doubled Pairs](https://leetcode.com/problems/array-of-doubled-pairs/)|[Java](./solutions/954.%20Array%20of%20Doubled%20Pairs.java)|80 ms|
+|966|[ Vowel Spellchecker](https://leetcode.com/problems/vowel-spellchecker/)|[Java](./solutions/966.%20Vowel%20Spellchecker.java)|16 ms|
 |970|[ Powerful Integers](https://leetcode.com/problems/powerful-integers/)|[Java](./solutions/970.%20Powerful%20Integers.java)|1 ms|
 |974|[ Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)|[Java](./solutions/974.%20Subarray%20Sums%20Divisible%20by%20K.java)|17 ms|
 |977|[ Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Java](./solutions/977.%20Squares%20of%20a%20Sorted%20Array.java)|4 ms|
