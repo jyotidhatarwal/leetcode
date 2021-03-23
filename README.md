@@ -94,6 +94,7 @@
 |899|[ Orderly Queue](https://leetcode.com/problems/orderly-queue/)|[Java](./solutions/899.%20Orderly%20Queue.java)|6 ms|
 |905|[ Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[Java](./solutions/905.%20Sort%20Array%20By%20Parity.java)|1 ms|
 |912|[ Sort an Array](https://leetcode.com/problems/sort-an-array/)|[Java](./solutions/912.%20Sort%20an%20Array.java)|3 ms|
+|923|[ 3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/)|[Java](./solutions/923.%203Sum%20With%20Multiplicity.java)|36 ms|
 |925|[ Long Pressed Name](https://leetcode.com/problems/long-pressed-name/)|[Java](./solutions/925.%20Long%20Pressed%20Name.java)|1 ms|
 |941|[ Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|[Java](./solutions/941.%20Valid%20Mountain%20Array.java)||
 |946|[ Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)|[Java](./solutions/946.%20Validate%20Stack%20Sequences.java)|1 ms|
