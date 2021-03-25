@@ -13,6 +13,7 @@
 |14|[ Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|[Java](./solutions/14.%20Longest%20Common%20Prefix.java)|1 ms|
 |18|[ 4Sum](https://leetcode.com/problems/4sum/)|[Java](./solutions/18.%204Sum.java)|13 ms|
 |21|[ Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Java](./solutions/21.%20Merge%20Two%20Sorted%20Lists.java)|0 ms|
+|25|[ Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)|[Java](./solutions/25.%20Reverse%20Nodes%20in%20k-Group.java)|1 ms|
 |27|[ Remove Element](https://leetcode.com/problems/remove-element/)|[Java](./solutions/27.%20Remove%20Element.java)|0 ms|
 |28|[ Implement strStr()](https://leetcode.com/problems/implement-strstr/)|[Java](./solutions/28.%20Implement%20strStr().java)||
 |29|[ Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)|[Java](./solutions/29.%20Divide%20Two%20Integers.java)|1 ms|
