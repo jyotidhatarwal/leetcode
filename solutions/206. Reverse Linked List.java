@@ -9,17 +9,26 @@
  * }
  */
 class Solution {
+    ListNode tempHead = null;
+    ListNode tempTail = null;
+    public void addFirst(ListNode node){
+        if(node == null){
+            tempHead = node;
+            tempTail = node;
+        }else{
+            node.next = tempHead;
+            tempHead = node;
+        }
+    }
     public ListNode reverseList(ListNode head) {
-        ListNode prev = null;
+​
         ListNode curr = head;
         while(curr != null){
             ListNode next = curr.next;
-            
-            curr.next = prev;
-            prev = curr;
-            curr= next;
+            curr.next = null;
+            addFirst(curr);
+            curr = next;
         }
-        return prev;
-        
+        return tempHead;
     }
 }
