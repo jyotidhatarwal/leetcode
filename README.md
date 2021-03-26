@@ -68,7 +68,7 @@
 |448|[ Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Java](./solutions/448.%20Find%20All%20Numbers%20Disappeared%20in%20an%20Array.java)||
 |454|[ 4Sum II](https://leetcode.com/problems/4sum-ii/)|[Java](./solutions/454.%204Sum%20II.java)|62 ms|
 |478|[ Generate Random Point in a Circle](https://leetcode.com/problems/generate-random-point-in-a-circle/)|[Java](./solutions/478.%20Generate%20Random%20Point%20in%20a%20Circle.java)|191 ms|
-|485|[ Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Java](./solutions/485.%20Max%20Consecutive%20Ones.java)||
+|485|[ Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Java](./solutions/485.%20Max%20Consecutive%20Ones.java)|2 ms|
 |498|[ Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|[Java](./solutions/498.%20Diagonal%20Traverse.java)|2 ms|
 |509|[ Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Java](./solutions/509.%20Fibonacci%20Number.java)|0 ms|
 |518|[ Coin Change 2](https://leetcode.com/problems/coin-change-2/)|[Java](./solutions/518.%20Coin%20Change%202.java)|2 ms|
