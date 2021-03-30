@@ -1,23 +1,35 @@
-class Solution {
-    // TC : O(n2)
-    //SC: O(n), n no of envelopes
-    public int maxEnvelopes(int[][] envelopes) {
-        int maxEn = 1;
-​
-        Arrays.sort(envelopes, (a,b) -> (a[0] - b[0]));
-​
-        int len = envelopes.length;
-        int[] dp = new int[len];
-        Arrays.fill(dp, 1);
-​
-        for(int i=0;i<len;i++){ //[0,len)
-            for(int j=0;j<i;j++){
-                if(envelopes[i][0] > envelopes[j][0] &&  envelopes[i][1] > envelopes[j][1]){
-                    dp[i] = Math.max(dp[i], dp[j]+1);
+            int lo=0, hi=ans;
+            
+            while(lo<hi){
+                int mid=(lo + hi)/2;
+                if(minele[mid]<val){
+                    lo=mid+1;
+                }else{
+                    hi=mid;
                 }
             }
-            maxEn = Math.max(maxEn, dp[i]);
+            minele[lo]=val;
+            
+            if(lo==ans){
+                ans++;
+            }
         }
-        return maxEn;
+        return ans;
+    }
+    
+    public static class Pair implements Comparable<Pair>{
+        int w;
+        int h;
+        
+        Pair(int w,int h){
+            this.w=w;
+            this.h=h;
+        }
+        
+        @Override
+        public int compareTo(Pair other){
+            if(this.w==other.w) return other.h -this.h;
+            return this.w-other.w;
+        }
     }
 }
