@@ -1,3 +1,9 @@
+    
+    private int LIS(int[][] arr){
+          int ans=0;
+          int[] minele=new int[arr.length];
+        for(int i=0;i<arr.length;i++){
+            int val=arr[i][1];
             int lo=0, hi=ans;
             
             while(lo<hi){
@@ -17,19 +23,11 @@
         return ans;
     }
     
-    public static class Pair implements Comparable<Pair>{
-        int w;
-        int h;
-        
-        Pair(int w,int h){
-            this.w=w;
-            this.h=h;
-        }
-        
+    public class EnvelopeComparator implements Comparator<int[]>{
         @Override
-        public int compareTo(Pair other){
-            if(this.w==other.w) return other.h -this.h;
-            return this.w-other.w;
+        public int compare(int[] one,int[] two){
+            if(one[0]==two[0]) return two[1]-one[1];
+            return one[0]-two[0];
         }
     }
 }
