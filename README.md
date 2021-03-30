@@ -57,7 +57,7 @@
 |290|[ Word Pattern](https://leetcode.com/problems/word-pattern/)|[Java](./solutions/290.%20Word%20Pattern.java)|1 ms|
 |309|[ Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)|[Java](./solutions/309.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Cooldown.java)|0 ms|
 |322|[ Coin Change](https://leetcode.com/problems/coin-change/)|[Java](./solutions/322.%20Coin%20Change.java)|12 ms|
-|354|[ Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/)|[Java](./solutions/354.%20Russian%20Doll%20Envelopes.java)|241 ms|
+|354|[ Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/)|[Java](./solutions/354.%20Russian%20Doll%20Envelopes.java)|9 ms|
 |376|[ Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)|[Java](./solutions/376.%20Wiggle%20Subsequence.java)|0 ms|
 |387|[ First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[Java](./solutions/387.%20First%20Unique%20Character%20in%20a%20String.java)|22 ms|
 |392|[ Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[Java](./solutions/392.%20Is%20Subsequence.java)|1 ms|
