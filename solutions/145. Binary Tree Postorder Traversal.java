@@ -14,15 +14,28 @@
  * }
  */
 class Solution {
-    private void postorderHelp(TreeNode root,List<Integer> ans){
-        if(root == null) return;
-        postorderHelp(root.left,ans);
-        postorderHelp(root.right,ans);
-        ans.add(root.val);
-    }
     public List<Integer> postorderTraversal(TreeNode root) {
         List<Integer> ans = new ArrayList<>();
-        postorderHelp(root,ans);
+        while(root != null){
+            if(root.right == null){
+                ans.add(root.val);
+                root = root.left;
+            }else{
+                TreeNode rootp1 = root.right;
+                while(rootp1.left != null && rootp1.left != root){
+                    rootp1 = rootp1.left;
+                }
+                if(rootp1.left == null){
+                    ans.add(root.val);
+                    rootp1.left  = root;
+                    root = root.right;
+                }else{
+                    rootp1.left = null;
+                    root = root.left;
+                }
+            }
+        }
+        Collections.reverse(ans);
         return ans;
     }
 }
