@@ -14,18 +14,22 @@
  * }
  */
 class Solution {
-    public TreeNode buildTreeHelp(int[] preorder,int psi,int pei,int[] inorder,int isi,int iei){
-        if(isi > iei) return null;
-        int idx = isi;
-        while(inorder[idx] != preorder[psi]) idx++;
-        int colse = idx - isi;
-        TreeNode node = new TreeNode(preorder[psi]);
-        node.left = buildTreeHelp(preorder,psi+1,psi + colse,inorder,isi,idx-1);
-        node.right = buildTreeHelp(preorder,psi+colse+1,pei,inorder,idx+1,iei);
-        return node;
-    }
     public TreeNode buildTree(int[] preorder, int[] inorder) {
         int n = preorder.length;
-        return buildTreeHelp(preorder,0,n-1,inorder,0,n-1);
+        return help(preorder,0,n-1,inorder,0,n-1);
     }
+     private TreeNode help(int[] preorder,int psi,int pei, int[] inorder,int isi,int iei){
+         if(isi > iei) return null;
+         
+         TreeNode node = new TreeNode();
+         node.val = preorder[psi];
+         
+         int idx = isi;
+         while(inorder[idx] != preorder[psi]) idx++;
+         int count = idx - isi;
+         
+         node.left = help(preorder,psi+1,psi+count,inorder,isi,idx-1);
+         node.right = help(preorder,psi+count+1,pei,inorder,idx+1,iei);
+         return node;
+     }
 }
