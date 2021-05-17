@@ -14,18 +14,21 @@
  * }
  */
 class Solution {
-    private TreeNode Help(int[] inorder,int isi,int iei,int[]postorder,int psi,int pei){
-        if(isi > iei) return null;
-        int idx = isi;
-        while(inorder[idx] != postorder[pei]) idx++;
-        int tnoe = idx - isi;
-        TreeNode node = new TreeNode(postorder[pei]);
-        node.left = Help(inorder,isi,idx-1,postorder,psi,psi+tnoe-1);
-        node.right = Help(inorder,idx+1,iei,postorder,psi+tnoe,pei-1);
-        return node;
-    }
     public TreeNode buildTree(int[] inorder, int[] postorder) {
         int n = inorder.length;
-       return Help(inorder,0,n-1,postorder,0,n-1);
+        return help(inorder,0,n-1,postorder,0,n-1);
+    }
+    
+    private TreeNode help(int[] inorder,int isi,int iei, int[] postorder,int psi,int pei){
+        if(isi > iei) return null;
+        TreeNode node = new TreeNode();
+        node.val = postorder[pei];
+        int idx = isi;
+        while(inorder[idx] != postorder[pei]) idx++;
+        int count = idx - isi;
+        
+        node.left = help(inorder,isi,idx-1,postorder,psi,psi+count-1);
+        node.right = help(inorder,idx+1,iei,postorder,psi+count, pei-1);
+        return node;
     }
 }
