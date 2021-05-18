@@ -14,16 +14,17 @@
  * }
  */
 class Solution {
-    private boolean BSTHelp(TreeNode root,long start,long end){
-        if(root == null) return true;
-        
-        if(root.val > start && root.val < end){
-            return BSTHelp(root.left,start,root.val) && BSTHelp(root.right,root.val,end);
-        }
-        return false;
-    }
     public boolean isValidBST(TreeNode root) {
-        return BSTHelp(root,Long.MIN_VALUE,Long.MAX_VALUE);
+       return help(root,Long.MIN_VALUE,Long.MAX_VALUE);
+        
+        
     }
+ private boolean help(TreeNode root,long min,long max){
+     if(root == null) return true ;
+     if(root.val > min && root.val < max){
+        return help(root.left,min,root.val) && help(root.right,root.val,max);
+     }
+     return false;
+ }
 ​
 }
