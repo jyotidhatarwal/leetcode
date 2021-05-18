@@ -14,24 +14,24 @@
  * }
  */
 class Solution {
-    class Pair{
-        int forwardSlope = -1;
-        int backwardSlope = -1;
-        int maxLength =0;
-    }
-    public Pair longestZigZagHelp(TreeNode root){
-        if(root == null) return new Pair();
-        Pair left = longestZigZagHelp(root.left);
-        Pair right = longestZigZagHelp(root.right);
-        Pair ans = new Pair();
-        ans.maxLength = Math.max(Math.max(left.maxLength,right.maxLength),Math.max(left.backwardSlope,right.forwardSlope)+1);
-        ans.forwardSlope = left.backwardSlope +1;
-        ans.backwardSlope = right.forwardSlope +1;
+    int ans = Integer.MIN_VALUE;
+    public int longestZigZag(TreeNode root) {
+         help(root);
         return ans;
     }
-    public int longestZigZag(TreeNode root) {
-        Pair result = longestZigZagHelp(root);
-        return result.maxLength;
-        
+    private int[] help(TreeNode root){
+        int[] arr = new int[2];
+        if(root == null){
+            arr[0] = -1;
+            arr[1] = -1;
+            return arr;
+        }
+        int[] leftR = help(root.left);
+        int[] rightR = help(root.right);
+        int[] res = new int[2];
+        res[0] = leftR[1] +1;
+        res[1] = rightR[0] +1;
+        ans = Math.max(ans,Math.max(res[0],res[1]));
+        return res;
     }
 }
