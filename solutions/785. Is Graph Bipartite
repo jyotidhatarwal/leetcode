@@ -1,25 +1,24 @@
 class Solution {
-    // 0 -- > not colored
-    // 1 --> blue
-    // -1 --> red
-    
-    /* USING BFS */
-    // T-O(V+E)
-    // S- O(V)
     public boolean isBipartite(int[][] graph) {
-        int[] color = new int[graph.length];
-        for(int i=0;i<graph.length;i++){
-            if(color[i] == 0){
-                Queue<Integer> que = new LinkedList<>();
+        int n = graph.length;
+        int[] colorArray = new int[n];
+        LinkedList<Integer> que = new LinkedList<>();
+        // 0 --> not colored
+        // 1 --> blue
+        // -1 --> red
+        
+        for(int i=-0;i<n;i++){
+            if(colorArray[i] == 0){
                 que.add(i);
-                color[i] = 1;
+                colorArray[i] =1;
                 while(que.size() > 0){
-                    Integer node = que.poll();
-                    for(int n:graph[node]){
-                        if(color[n] == color[node]) return false;
-                        else if(color[n] == 0){
-                            que.add(n);
-                            color[n] = -color[node];
+                    Integer rem =que.removeFirst();
+                    
+                    for(int nbrs: graph[rem]){
+                        if(colorArray[nbrs] == colorArray[rem]) return false;
+                        else if(colorArray[nbrs] == 0){
+                            que.add(nbrs);
+                            colorArray[nbrs] = - colorArray[rem];
                         }
                     }
                 }
