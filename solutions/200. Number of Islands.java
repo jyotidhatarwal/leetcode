@@ -16,10 +16,10 @@ class Solution {
         }
        
     
-    private int dfs(char[][]grid,boolean[][] visited,int i,int j,int m,int n){
+    private void dfs(char[][]grid,boolean[][] visited,int i,int j,int m,int n){
         
         if(i < 0 || i >= m || j <0 || j>= n || grid[i][j] == '0' || visited[i][j] == true){
-            return 0;
+            return ;
         }
         visited[i][j] = true;
         
@@ -28,6 +28,6 @@ class Solution {
         dfs(grid,visited,i,j+1,m,n);
         dfs(grid,visited,i,j-1,m,n);
         
-        return 1;
+        
     }
 }
