@@ -150,6 +150,7 @@
 |1004|[ Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)|[Java](./solutions/1004.%20Max%20Consecutive%20Ones%20III.java)|2 ms|
 |1008|[ Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)|[Java](./solutions/1008.%20Construct%20Binary%20Search%20Tree%20from%20Preorder%20Traversal.java)|0 ms|
 |1016|[ Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/)|[Java](./solutions/1016.%20Binary%20String%20With%20Substrings%20Representing%201%20To%20N.java)|0 ms|
+|1020|[ Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)|[Java](./solutions/1020.%20Number%20of%20Enclaves.java)|4 ms|
 |1034|[ Coloring A Border](https://leetcode.com/problems/coloring-a-border/)|[Java](./solutions/1034.%20Coloring%20A%20Border.java)|0 ms|
 |1051|[ Height Checker](https://leetcode.com/problems/height-checker/)|[Java](./solutions/1051.%20Height%20Checker.java)||
 |1089|[ Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)|[Java](./solutions/1089.%20Duplicate%20Zeros.java)|1 ms|
