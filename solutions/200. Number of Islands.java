@@ -1,29 +1,33 @@
 class Solution {
- 
     public int numIslands(char[][] grid) {
-        
-        boolean[][]visited = new boolean[grid.length][grid[0].length];
-        int count=0;
-        for(int i=0;i<grid.length;i++){
-            for(int j=0;j<grid[0].length;j++){
+        int m = grid.length;
+        int n = grid[0].length;
+        boolean[][] visited = new boolean[m][n];
+        int ans =0;
+        for(int i=0;i<m;i++){
+            for(int j=0;j<n;j++){
                 if(grid[i][j] == '1' && visited[i][j] == false){
-                    drawTreeForComponent(grid,i,j,visited);
-                    count++;
+              dfs(grid,visited,i,j,m,n);
+                ans++;
+             }
                 }
             }
+         return ans;
         }
-        return count;
-    }
-        private void drawTreeForComponent(char[][]grid,int i,int j,boolean[][] visited){
-        if(i<0 || j<0 || i>= grid.length || j>= grid[0].length || grid[i][j] == '0' || visited[i][j] == true){
-            return;
+       
+    
+    private int dfs(char[][]grid,boolean[][] visited,int i,int j,int m,int n){
+        
+        if(i < 0 || i >= m || j <0 || j>= n || grid[i][j] == '0' || visited[i][j] == true){
+            return 0;
         }
         visited[i][j] = true;
-        drawTreeForComponent(grid,i-1,j,visited);
-        drawTreeForComponent(grid,i,j+1,visited);
-        drawTreeForComponent(grid,i,j-1,visited);
-        drawTreeForComponent(grid,i+1,j, visited);
         
+        dfs(grid,visited,i+1,j,m,n);
+        dfs(grid,visited,i-1,j,m,n);
+        dfs(grid,visited,i,j+1,m,n);
+        dfs(grid,visited,i,j-1,m,n);
+        
+        return 1;
     }
-   
 }
