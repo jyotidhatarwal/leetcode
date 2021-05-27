@@ -3,7 +3,7 @@ class Solution {
        HashSet<Integer> visited = new HashSet<>();
        Queue<Integer> q = new LinkedList<>();
        HashMap<Integer, ArrayList<Integer>> map = new HashMap<>();
-       int ret = 0; 
+       int ans = 0; 
         
        if (S==T) return 0; 
         
@@ -15,19 +15,19 @@ class Solution {
             }       
         }
                 
-       q.offer(S); 
-       while (!q.isEmpty()) {
-           int len = q.size();
-           ret++;
-           for (int i = 0; i < len; i++) {
-               int cur = q.poll();
+       q.add(S); 
+       while (q.size() > 0) {
+           int size = q.size();
+           ans++;
+           while(size-- > 0) {
+               int cur = q.remove();
                ArrayList<Integer> buses = map.get(cur);
                for (int bus: buses) {
                     if (visited.contains(bus)) continue;
                     visited.add(bus);
                     for (int j = 0; j < routes[bus].length; j++) {
-                        if (routes[bus][j] == T) return ret;
-                        q.offer(routes[bus][j]);  
+                        if (routes[bus][j] == T) return ans;
+                        q.add(routes[bus][j]);  
                    }
                }
            }
