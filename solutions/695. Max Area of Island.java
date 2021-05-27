@@ -1,31 +1,31 @@
 class Solution {
-   private int maxAreaOfIslandDFS(int[][] grid,int r,int c,int[][] dir){
-        grid[r][c] = 0;
-        int count = 0;
-        for(int d = 0; d < dir.length ; d++){
-            int x = r + dir[d][0];
-            int y = c + dir[d][1];
-​
-            if( x >= 0 && y >= 0 && x < grid.length && y < grid[0].length && grid[x][y] == 1){
-                count += maxAreaOfIslandDFS(grid,x,y,dir);
-            }
-        }
-​
-        return count + 1;
-    }
-​
-​
+    
     public int maxAreaOfIsland(int[][] grid) {
-        int[][] dir = {{0,1},{0,-1},{1,0},{-1,0}};
-        int maxArea = 0;
-        for(int i = 0; i < grid.length;i++){
-            for(int j = 0; j < grid[0].length; j++){
+        int m = grid.length;
+        int n = grid[0].length;
+        if(m == 0 || n ==0) return 0;
+        int[] count = new int[1];
+        int max =0;
+        for(int i=0;i<m;i++){
+            for(int j=0;j<n;j++){
                 if(grid[i][j] == 1){
-                    maxArea = Math.max(maxArea,maxAreaOfIslandDFS(grid,i,j,dir));
+                    count[0] = 0;
+                    dfs(grid,i,j,m,n,count);
+                    max = Math.max(count[0],max);
                 }
             }
         }
-​
-        return maxArea;
+        return max;
+    }
+    private void dfs(int[][] grid,int x,int y,int m,int n,int[] count){
+        if(x < 0 || y < 0 || x >= m || y >= n || grid[x][y] == 0){
+            return;
+        }
+        grid[x][y] = 0; 
+        count[0]++;
+        dfs(grid,x+1,y,m,n,count);
+        dfs(grid,x-1,y,m,n,count);
+        dfs(grid,x,y+1,m,n,count);
+        dfs(grid,x,y-1,m,n,count);
     }
 }
