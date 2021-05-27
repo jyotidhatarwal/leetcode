@@ -1,33 +1,33 @@
 class Solution {
-    private void SurroundedRegionDFS(char[][] grid,int r,int c,int[][] dir){
-        grid[r][c] = '$';
-        for(int d = 0 ;d < 4 ; d++){
-            int x = r + dir[d][0];
-            int y = c + dir[d][1];
-​
-            if( x>=0 && y>=0 && x < grid.length && y < grid[0].length && grid[x][y] == 'O') 
-               SurroundedRegionDFS(grid,x,y,dir);
-        }
-    }
-​
-​
-    public void solve(char[][] grid) {
-        int[][] dir = {{0,1},{0,-1},{1,0},{-1,0}};
-        for(int i = 0; i < grid.length;i++){
-            for(int j = 0; j < grid[0].length; j++){
-                if(i ==0 || j == 0 || i == grid.length-1 || j == grid[0].length - 1){
-                    if(grid[i][j] == 'O')
-                       SurroundedRegionDFS(grid,i,j,dir);
+    public void solve(char[][] board) {
+        int m = board.length;
+        int n = board[0].length;
+        for(int i=0;i<m;i++){
+            for(int j=0;j<n;j++){
+                if(i==0 || j == 0 || i == m-1 || j == n-1){
+                    dfs(board,i,j);
                 }
-​
             }
         }
-​
-        for(int i = 0; i < grid.length;i++){
-            for(int j = 0; j < grid[0].length; j++){
-                if(grid[i][j] == 'O') grid[i][j] = 'X';
-                else if(grid[i][j] == '$') grid[i][j] = 'O';
+        for(int i=0;i<m;i++){
+            for(int j=0;j<n;j++){
+                if(board[i][j] == '$'){
+                    board[i][j] = 'O';
+                }else{
+                    board[i][j] = 'X';
+                }
             }
         }
+        
+    }
+    private void dfs(char[][] board,int i,int j){
+      if(i<0 || j<0 || i>board.length-1 || j>board[0].length-1 || board[i][j]!='O'){
+            return;
+        }
+        board[i][j] = '$';
+        dfs(board,i+1,j);
+        dfs(board,i-1,j);
+        dfs(board,i,j+1);
+        dfs(board,i,j-1);
     }
 }
