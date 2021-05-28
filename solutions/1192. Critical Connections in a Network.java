@@ -14,39 +14,41 @@ class Solution {
         disc = new int[n];
         vis = new boolean[n];
         
-        for(int i=0;i<n;i++) graph[i] = new ArrayList<>();
+        for(int i=0;i<n;i++){
+            graph[i] = new ArrayList<>();
+        } 
         for(List<Integer> a: connections){
             graph[a.get(0)].add(a.get(1));
             graph[a.get(1)].add(a.get(0));
         }
         
         for(int i = 0;i < n; i++){
-            if(!vis[i]){
-                dfs_AB(i,-1);
+            if(vis[i] == false){
+                dfs(i,-1);
             }
         }
         
         return ans;
     }
     
-    public void dfs_AB(int src,int par){
+    public void dfs(int src,int par){
         low[src] = disc[src] = time++;
         vis[src] = true;
-        for(int e : graph[src]){
-          if(!vis[e]){
-              dfs_AB(e,src);
-              if(disc[src] < low[e]){
+        for(int nbrs : graph[src]){
+          if(vis[nbrs] == false){
+              dfs(nbrs,src);
+              if(disc[src] < low[nbrs]){
                   
                  ArrayList<Integer> smallAns = new ArrayList<>();
-                 smallAns.add(src); smallAns.add(e);
+                 smallAns.add(src); smallAns.add(nbrs);
                  ans.add(smallAns);
               }
               
-              low[src] = Math.min(low[src],low[e]);
-          }else if(e != par){
-              low[src] = Math.min(low[src],disc[e]);
+              low[src] = Math.min(low[src],low[nbrs]);
+          }else if(nbrs != par){
+              low[src] = Math.min(low[src],disc[nbrs]);
           }
         }
-    }
+    }
 ​
 }
