@@ -30,12 +30,12 @@ class Solution {
         }
         int count =n;
         for(int i=0;i<n;i++){
-            int p1 = find(i);
+            int lox = find(i);
             for(int j= i+1;j<n;j++){
                 if(isSimilar(strs[i],strs[j])){
-                    int p2 = find(j);
-                    if(p1 != p2){
-                        parent[p2] = p1;
+                    int loy = find(j);
+                    if(lox != loy){
+                        parent[loy] = lox;
                         count--;
                 }
             }
