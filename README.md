@@ -117,6 +117,7 @@
 |647|[ Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|[Java](./solutions/647.%20Palindromic%20Substrings.java)|452 ms|
 |667|[ Beautiful Arrangement II](https://leetcode.com/problems/beautiful-arrangement-ii/)|[Java](./solutions/667.%20Beautiful%20Arrangement%20II.java)|0 ms|
 |684|[ Redundant Connection](https://leetcode.com/problems/redundant-connection/)|[Java](./solutions/684.%20Redundant%20Connection.java)|0 ms|
+|685|[ Redundant Connection II](https://leetcode.com/problems/redundant-connection-ii/)|[Java](./solutions/685.%20Redundant%20Connection%20II.java)|1 ms|
 |695|[ Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|[Java](./solutions/695.%20Max%20Area%20of%20Island.java)|2 ms|
 |696|[ Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/)|[Java](./solutions/696.%20Count%20Binary%20Substrings.java)|9 ms|
 |714|[ Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)|[Java](./solutions/714.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Transaction%20Fee.java)|4 ms|
