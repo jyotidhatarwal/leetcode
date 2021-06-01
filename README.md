@@ -129,6 +129,7 @@
 |785|[ Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)|[Java](./solutions/785.%20Is%20Graph%20Bipartite%3F.java)|1 ms|
 |787|[ Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)|[Java](./solutions/787.%20Cheapest%20Flights%20Within%20K%20Stops.java)|18 ms|
 |790|[ Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling/)|[Java](./solutions/790.%20Domino%20and%20Tromino%20Tiling.java)|0 ms|
+|803|[ Bricks Falling When Hit](https://leetcode.com/problems/bricks-falling-when-hit/)|[Java](./solutions/803.%20Bricks%20Falling%20When%20Hit.java)|27 ms|
 |815|[ Bus Routes](https://leetcode.com/problems/bus-routes/)|[Java](./solutions/815.%20Bus%20Routes.java)|47 ms|
 |821|[ Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)|[Java](./solutions/821.%20Shortest%20Distance%20to%20a%20Character.java)||
 |823|[ Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors/)|[Java](./solutions/823.%20Binary%20Trees%20With%20Factors.java)|79 ms|
