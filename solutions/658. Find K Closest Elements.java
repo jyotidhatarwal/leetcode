@@ -1,42 +1,35 @@
 class Solution {
     public List<Integer> findClosestElements(int[] arr, int k, int x) {
-        int low = 0;
-        int hi = arr.length-1;
-        int mid =0;
-        while(low <= hi){
-            mid = (low + hi) /2;
-            if(arr[mid] == x){
-                break;
-            }else if(arr[mid] < x){
-                low = mid+1;
-            }else{
-                hi = mid-1;
+        ArrayList<Integer> list = new ArrayList<>();
+        PriorityQueue<Pair> pq = new PriorityQueue<>(Collections.reverseOrder());
+        for(int i=0;i<arr.length;i++){
+            if(pq.size() < k){
+                pq.add(new Pair(arr[i],Math.abs(arr[i] - x)));
+            }else if(pq.peek().gap > Math.abs(arr[i] - x)){
+                pq.remove();
+                pq.add(new Pair(arr[i],Math.abs(arr[i] - x)));
             }
         }
-        int left = mid-1;
-        int right = mid;
-        List<Integer> list = new ArrayList<>();
-        while(left >= 0 && right <= arr.length-1 && k> 0){
-          if(Math.abs(arr[left]-x)  <=  Math.abs(arr[right] - x) ){
-                list.add(arr[left]);
-                left--;
-            }else{
-                list.add(arr[right]);
-                right++;
-            }
-            k--;
-        }
-        while(k > 0 && left >= 0){
-            list.add(arr[left]);
-            left--;
-            k--;
-        }
-        while(k > 0 && right <= arr.length-1){
-            list.add(arr[right]);
-            right++;
-            k--;
+        while(pq.size() > 0){
+            Pair rem = pq.remove();
+            list.add(rem.val);
         }
         Collections.sort(list);
         return list;
+    }
+    public class Pair implements Comparable<Pair>{
+        int val;
+        int gap;
+        Pair(int val,int gap){
+            this.val= val;
+            this.gap = gap;
+        }
+        public int compareTo(Pair other){
+            if(this.gap == other.gap){
+                return this.val - other.val;
+            }else{
+                return this.gap - other.gap;
+            }
+        }
     }
 }
