@@ -186,6 +186,7 @@
 |1502|[ Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)|[Java](./solutions/1502.%20Can%20Make%20Arithmetic%20Progression%20From%20Sequence.java)|1 ms|
 |1551|[ Minimum Operations to Make Array Equal](https://leetcode.com/problems/minimum-operations-to-make-array-equal/)|[Java](./solutions/1551.%20Minimum%20Operations%20to%20Make%20Array%20Equal.java)|1 ms|
 |1579|[ Remove Max Number of Edges to Keep Graph Fully Traversable](https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/)|[Java](./solutions/1579.%20Remove%20Max%20Number%20of%20Edges%20to%20Keep%20Graph%20Fully%20Traversable.java)|47 ms|
+|1584|[ Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)|[Java](./solutions/1584.%20Min%20Cost%20to%20Connect%20All%20Points.java)|82 ms|
 |1663|[ Smallest String With A Given Numeric Value](https://leetcode.com/problems/smallest-string-with-a-given-numeric-value/)|[Java](./solutions/1663.%20Smallest%20String%20With%20A%20Given%20Numeric%20Value.java)||
 |1675|[ Minimize Deviation in Array](https://leetcode.com/problems/minimize-deviation-in-array/)|[Java](./solutions/1675.%20Minimize%20Deviation%20in%20Array.java)|163 ms|
 |1680|[ Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/)|[Java](./solutions/1680.%20Concatenation%20of%20Consecutive%20Binary%20Numbers.java)|1814 ms|
