@@ -39,7 +39,7 @@ class Solution {
                     pq.add(new int[]{i, costBtwPoints});
                 }
             }
-        }
+        }
         
         return costTillPoint;
             
