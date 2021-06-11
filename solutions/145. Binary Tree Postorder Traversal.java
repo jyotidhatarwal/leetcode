@@ -15,27 +15,15 @@
  */
 class Solution {
     public List<Integer> postorderTraversal(TreeNode root) {
-        List<Integer> ans = new ArrayList<>();
-        while(root != null){
-            if(root.right == null){
-                ans.add(root.val);
-                root = root.left;
-            }else{
-                TreeNode rootp1 = root.right;
-                while(rootp1.left != null && rootp1.left != root){
-                    rootp1 = rootp1.left;
-                }
-                if(rootp1.left == null){
-                    ans.add(root.val);
-                    rootp1.left  = root;
-                    root = root.right;
-                }else{
-                    rootp1.left = null;
-                    root = root.left;
-                }
-            }
-        }
-        Collections.reverse(ans);
+    List<Integer> ans = new ArrayList<>();
+         help(root,ans);
         return ans;
     }
+    private void help(TreeNode root,List<Integer> ans){
+        if(root == null) return;
+        help(root.left,ans);
+        help(root.right,ans);
+        ans.add(root.val);
+    }
+    
 }
