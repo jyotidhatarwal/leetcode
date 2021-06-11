@@ -145,6 +145,7 @@
 |815|[ Bus Routes](https://leetcode.com/problems/bus-routes/)|[Java](./solutions/815.%20Bus%20Routes.java)|47 ms|
 |821|[ Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)|[Java](./solutions/821.%20Shortest%20Distance%20to%20a%20Character.java)||
 |823|[ Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors/)|[Java](./solutions/823.%20Binary%20Trees%20With%20Factors.java)|79 ms|
+|834|[ Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/)|[Java](./solutions/834.%20Sum%20of%20Distances%20in%20Tree.java)|32 ms|
 |839|[ Similar String Groups](https://leetcode.com/problems/similar-string-groups/)|[Java](./solutions/839.%20Similar%20String%20Groups.java)|10 ms|
 |841|[ Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)|[Java](./solutions/841.%20Keys%20and%20Rooms.java)|1 ms|
 |856|[ Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/)|[Java](./solutions/856.%20Score%20of%20Parentheses.java)|0 ms|
