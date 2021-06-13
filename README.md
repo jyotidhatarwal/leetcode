@@ -197,6 +197,7 @@
 |1332|[ Remove Palindromic Subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/)|[Java](./solutions/1332.%20Remove%20Palindromic%20Subsequences.java)|0 ms|
 |1346|[ Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/)|[Java](./solutions/1346.%20Check%20If%20N%20and%20Its%20Double%20Exist.java)||
 |1372|[ Longest ZigZag Path in a Binary Tree](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/)|[Java](./solutions/1372.%20Longest%20ZigZag%20Path%20in%20a%20Binary%20Tree.java)|26 ms|
+|1381|[ Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/)|[Java](./solutions/1381.%20Design%20a%20Stack%20With%20Increment%20Operation.java)|3 ms|
 |1461|[ Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)|[Java](./solutions/1461.%20Check%20If%20a%20String%20Contains%20All%20Binary%20Codes%20of%20Size%20K.java)|81 ms|
 |1497|[ Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/)|[Java](./solutions/1497.%20Check%20If%20Array%20Pairs%20Are%20Divisible%20by%20k.java)|N/A|
 |1502|[ Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)|[Java](./solutions/1502.%20Can%20Make%20Arithmetic%20Progression%20From%20Sequence.java)|1 ms|
