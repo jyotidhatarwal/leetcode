@@ -191,6 +191,7 @@
 |1145|[ Binary Tree Coloring Game](https://leetcode.com/problems/binary-tree-coloring-game/)|[Java](./solutions/1145.%20Binary%20Tree%20Coloring%20Game.java)|0 ms|
 |1162|[ As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/)|[Java](./solutions/1162.%20As%20Far%20from%20Land%20as%20Possible.java)|13 ms|
 |1178|[ Number of Valid Words for Each Puzzle](https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/)|[Java](./solutions/1178.%20Number%20of%20Valid%20Words%20for%20Each%20Puzzle.java)|1432 ms|
+|1190|[ Reverse Substrings Between Each Pair of Parentheses](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/)|[Java](./solutions/1190.%20Reverse%20Substrings%20Between%20Each%20Pair%20of%20Parentheses.java)|3 ms|
 |1192|[ Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)|[Java](./solutions/1192.%20Critical%20Connections%20in%20a%20Network.java)|90 ms|
 |1202|[ Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)|[Java](./solutions/1202.%20Smallest%20String%20With%20Swaps.java)|92 ms|
 |1249|[ Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|[Java](./solutions/1249.%20Minimum%20Remove%20to%20Make%20Valid%20Parentheses.java)|16 ms|
