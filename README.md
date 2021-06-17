@@ -84,6 +84,7 @@
 |297|[ Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|[Java](./solutions/297.%20Serialize%20and%20Deserialize%20Binary%20Tree.java)|12 ms|
 |300|[ Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|[Java](./solutions/300.%20Longest%20Increasing%20Subsequence.java)|60 ms|
 |309|[ Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)|[Java](./solutions/309.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Cooldown.java)|0 ms|
+|319|[ Bulb Switcher](https://leetcode.com/problems/bulb-switcher/)|[Java](./solutions/319.%20Bulb%20Switcher.java)|0 ms|
 |322|[ Coin Change](https://leetcode.com/problems/coin-change/)|[Java](./solutions/322.%20Coin%20Change.java)|12 ms|
 |329|[ Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)|[Java](./solutions/329.%20Longest%20Increasing%20Path%20in%20a%20Matrix.java)|8 ms|
 |337|[ House Robber III](https://leetcode.com/problems/house-robber-iii/)|[Java](./solutions/337.%20House%20Robber%20III.java)|1 ms|
