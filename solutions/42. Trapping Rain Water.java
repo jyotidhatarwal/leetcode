@@ -4,20 +4,25 @@ class Solution {
         if(n == 0){
             return 0;
         }
-        int leftMax[] = new int[n];
-        int rightMax[] = new int[n];
-        leftMax[0] = height[0];
-        for(int i=1;i<n;i++){
-            leftMax[i] = Math.max(leftMax[i-1],height[i]);
-        }
-        rightMax[n-1] = height[n-1];
-        for(int i= n-2;i>=0;i--){
-            rightMax[i] = Math.max(height[i],rightMax[i+1]);
-        }
+        int leftMax = 0;
+        int rightMax = 0;
+        
+        int i=0;
+        int j = n-1;
         int ans =0;
-        for(int i=1;i<n-1;i++){
-            ans += Math.min(leftMax[i],rightMax[i]) - height[i];
+        while(i < j){
+            leftMax = Math.max(leftMax,height[i]);
+            rightMax = Math.max(rightMax,height[j]);
+            
+            if(leftMax <= rightMax){
+                ans += leftMax - height[i];
+                i++;
+            }else{
+                ans += rightMax - height[j];
+                j--;
+            }
         }
         return ans;
     }
+    
 }
