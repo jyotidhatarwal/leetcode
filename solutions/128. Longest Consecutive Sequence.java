@@ -20,7 +20,8 @@ class Solution {
                 map.put(n,1);
             }
             max = Math.max(max,newLength);
-        }
+              
+        }
         }
         return max;
     }
