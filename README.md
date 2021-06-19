@@ -119,6 +119,7 @@
 |525|[ Contiguous Array](https://leetcode.com/problems/contiguous-array/)|[Java](./solutions/525.%20Contiguous%20Array.java)|18 ms|
 |535|[ Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/)|[Java](./solutions/535.%20Encode%20and%20Decode%20TinyURL.java)|12 ms|
 |542|[ 01 Matrix](https://leetcode.com/problems/01-matrix/)|[Java](./solutions/542.%2001%20Matrix.java)|20 ms|
+|554|[ Brick Wall](https://leetcode.com/problems/brick-wall/)|[Java](./solutions/554.%20Brick%20Wall.java)|9 ms|
 |557|[ Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[Java](./solutions/557.%20Reverse%20Words%20in%20a%20String%20III.java)|12 ms|
 |560|[ Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[Java](./solutions/560.%20Subarray%20Sum%20Equals%20K.java)|30 ms|
 |575|[ Distribute Candies](https://leetcode.com/problems/distribute-candies/)|[Java](./solutions/575.%20Distribute%20Candies.java)|33 ms|
