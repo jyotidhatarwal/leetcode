@@ -221,3 +221,4 @@
 |1887|[ Reduction Operations to Make the Array Elements Equal](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal/)|[Java](./solutions/1887.%20Reduction%20Operations%20to%20Make%20the%20Array%20Elements%20Equal.java)|30 ms|
 |1897|[ Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/)|[Java](./solutions/1897.%20Redistribute%20Characters%20to%20Make%20All%20Strings%20Equal.java)|9 ms|
 |1899|[ Merge Triplets to Form Target Triplet](https://leetcode.com/problems/merge-triplets-to-form-target-triplet/)|[Java](./solutions/1899.%20Merge%20Triplets%20to%20Form%20Target%20Triplet.java)|1 ms|
+|1905|[ Count Sub Islands](https://leetcode.com/problems/count-sub-islands/)|[Java](./solutions/1905.%20Count%20Sub%20Islands.java)|43 ms|
