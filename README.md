@@ -117,7 +117,7 @@
 |509|[ Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Java](./solutions/509.%20Fibonacci%20Number.java)|0 ms|
 |518|[ Coin Change 2](https://leetcode.com/problems/coin-change-2/)|[Java](./solutions/518.%20Coin%20Change%202.java)|2 ms|
 |524|[ Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/)|[Java](./solutions/524.%20Longest%20Word%20in%20Dictionary%20through%20Deleting.java)|15 ms|
-|525|[ Contiguous Array](https://leetcode.com/problems/contiguous-array/)|[Java](./solutions/525.%20Contiguous%20Array.java)|18 ms|
+|525|[ Contiguous Array](https://leetcode.com/problems/contiguous-array/)|[Java](./solutions/525.%20Contiguous%20Array.java)|19 ms|
 |535|[ Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/)|[Java](./solutions/535.%20Encode%20and%20Decode%20TinyURL.java)|12 ms|
 |542|[ 01 Matrix](https://leetcode.com/problems/01-matrix/)|[Java](./solutions/542.%2001%20Matrix.java)|20 ms|
 |554|[ Brick Wall](https://leetcode.com/problems/brick-wall/)|[Java](./solutions/554.%20Brick%20Wall.java)|9 ms|
