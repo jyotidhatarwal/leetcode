@@ -1,58 +1,53 @@
 class Solution {
     public String minWindow(String s, String t) {
-​
-        String ans ="";
-        HashMap<Character,Integer> map2 = new HashMap<>();
+        
+        HashMap<Character,Integer> mapForT = new HashMap<>();
         for(int i=0;i<t.length();i++){
-            char ch = t.charAt(i);
-            map2.put(ch,map2.getOrDefault(ch,0)+1);
+            mapForT.put(t.charAt(i),mapForT.getOrDefault(t.charAt(i),0)+1);
         }
-        HashMap<Character,Integer> map1 = new HashMap<>();
-        int matchCount=0;
-        int desiredCount = t.length();
-        int i=-1;
-        int j=-1;
-        // acquire
+        
+        HashMap<Character,Integer> mapForS = new HashMap<>();
+        
+        int matchCount =0;
+        int i=0;
+        int j=0;
+​
+        String ans = "";
         while(true){
-            boolean f1 = false;
-            boolean f2 = false;
-            while(i<s.length()-1 && matchCount <desiredCount){
-                i++;
-                char ch = s.charAt(i);
-                map1.put(ch,map1.getOrDefault(ch,0)+1);
-                if(map1.getOrDefault(ch,0) <= map2.getOrDefault(ch,0)){
+        boolean flag1 = false;
+        boolean flag2 = false;
+            // acquire
+            while(j<s.length() && matchCount < t.length()){
+                char ch  = s.charAt(j);
+                mapForS.put(ch,mapForS.getOrDefault(ch,0)+1);
+                if(mapForS.getOrDefault(ch,0) <= mapForT.getOrDefault(ch,0)){
                     matchCount++;
                 }
-                f1 = true;
-            }
-            // collect answer and release
-            while(j<i && matchCount == desiredCount){
-                String potentialAnswer = s.substring(j+1,i+1);
-                if(ans.length()==0 || potentialAnswer.length() <ans.length()){
+                j++;
+                flag1 = true;
+            }
+            // store answer string and release
+            while(i < j && matchCount == t.length()){
+                String potentialAnswer = s.substring(i,j);
+                if(ans.length() == 0 || potentialAnswer.length() < ans.length()){
                     ans = potentialAnswer;
                 }
-                j++;
-                char ch = s.charAt(j);
-                if(map1.get(ch)==1){
-                    map1.remove(ch);
+                char ch = s.charAt(i);
+                if(mapForS.get(ch) == 0){
+                    mapForS.remove(ch);
                 }else{
-                    map1.put(ch,map1.get(ch)-1);
+                    mapForS.put(ch,mapForS.get(ch)-1);
                 }
-                if(map1.getOrDefault(ch,0) < map2.getOrDefault(ch,0)){
+                if(mapForS.getOrDefault(ch,0) < mapForT.getOrDefault(ch,0)){
                     matchCount--;
                 }
-                f2 = true;
+                i++;
+                flag2 = true;
             }
-            if(f1 == false && f2 == false){
+            if(flag1 == false && flag2 == false){
                 break;
             }
-            
         }
-        
-        
-        
-        
-        
         return ans;
     }
 }
