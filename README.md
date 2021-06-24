@@ -187,6 +187,7 @@
 |990|[ Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/)|[Java](./solutions/990.%20Satisfiability%20of%20Equality%20Equations.java)|0 ms|
 |991|[ Broken Calculator](https://leetcode.com/problems/broken-calculator/)|[Java](./solutions/991.%20Broken%20Calculator.java)|0 ms|
 |994|[ Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|[Java](./solutions/994.%20Rotting%20Oranges.java)|2 ms|
+|1001|[ Grid Illumination](https://leetcode.com/problems/grid-illumination/)|[Java](./solutions/1001.%20Grid%20Illumination.java)|62 ms|
 |1004|[ Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)|[Java](./solutions/1004.%20Max%20Consecutive%20Ones%20III.java)|2 ms|
 |1008|[ Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)|[Java](./solutions/1008.%20Construct%20Binary%20Search%20Tree%20from%20Preorder%20Traversal.java)|0 ms|
 |1016|[ Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/)|[Java](./solutions/1016.%20Binary%20String%20With%20Substrings%20Representing%201%20To%20N.java)|0 ms|
