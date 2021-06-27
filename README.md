@@ -169,7 +169,7 @@
 |916|[ Word Subsets](https://leetcode.com/problems/word-subsets/)|[Java](./solutions/916.%20Word%20Subsets.java)|17 ms|
 |921|[ Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/)|[Java](./solutions/921.%20Minimum%20Add%20to%20Make%20Parentheses%20Valid.java)|1 ms|
 |923|[ 3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/)|[Java](./solutions/923.%203Sum%20With%20Multiplicity.java)|36 ms|
-|925|[ Long Pressed Name](https://leetcode.com/problems/long-pressed-name/)|[Java](./solutions/925.%20Long%20Pressed%20Name.java)|1 ms|
+|925|[ Long Pressed Name](https://leetcode.com/problems/long-pressed-name/)|[Java](./solutions/925.%20Long%20Pressed%20Name.java)|0 ms|
 |934|[ Shortest Bridge](https://leetcode.com/problems/shortest-bridge/)|[Java](./solutions/934.%20Shortest%20Bridge.java)|7 ms|
 |936|[ Stamping The Sequence](https://leetcode.com/problems/stamping-the-sequence/)|[Java](./solutions/936.%20Stamping%20The%20Sequence.java)|34 ms|
 |941|[ Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|[Java](./solutions/941.%20Valid%20Mountain%20Array.java)||
