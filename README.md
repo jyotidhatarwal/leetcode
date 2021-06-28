@@ -70,7 +70,7 @@
 |210|[ Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)|[Java](./solutions/210.%20Course%20Schedule%20II.java)|4 ms|
 |215|[ Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[Java](./solutions/215.%20Kth%20Largest%20Element%20in%20an%20Array.java)|4 ms|
 |222|[ Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)|[Java](./solutions/222.%20Count%20Complete%20Tree%20Nodes.java)|0 ms|
-|229|[ Majority Element II](https://leetcode.com/problems/majority-element-ii/)|[Java](./solutions/229.%20Majority%20Element%20II.java)|2 ms|
+|229|[ Majority Element II](https://leetcode.com/problems/majority-element-ii/)|[Java](./solutions/229.%20Majority%20Element%20II.java)|1 ms|
 |234|[ Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[Java](./solutions/234.%20Palindrome%20Linked%20List.java)|6 ms|
 |235|[ Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[Java](./solutions/235.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree.java)|3 ms|
 |237|[ Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[Java](./solutions/237.%20Delete%20Node%20in%20a%20Linked%20List.java)|0 ms|
