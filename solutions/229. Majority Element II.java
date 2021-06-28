@@ -1,46 +1,48 @@
 class Solution {
     public List<Integer> majorityElement(int[] nums) {
-        int count1= 0;
+        int val1 =nums[0];
+        int count1 =1;
+        int val2= nums[0];
         int count2 =0;
-        int num1 =-1;
-        int num2 =-1;
-        List<Integer> res = new ArrayList<>();
-        int majority = (int)Math.floor(nums.length/3);
-​
-        for(int element : nums){
-            if(element == num1){
+        int i=1;
+        while(i < nums.length){
+            if(nums[i] == val1){
                 count1++;
-            }else if(element == num2){
+            }else if(nums[i] == val2){
                 count2++;
-            }else if(count1 ==0){
-                num1 = element;
-                count1 =1;
-            }else if(count2 ==0){
-                num2 = element;
-                count2=1;
             }else{
-                count1--;
-                count2--;
+                if(count1 == 0){
+                    val1 = nums[i];
+                    count1 =1;
+                }else if(count2 ==0){
+                    val2 = nums[i];
+                    count2 =1;
+                }else{
+                    count1--;
+                    count2--;
+                }
             }
+            i++;
         }
-        
-         count1 =0;
-         count2=0;
-        for(int i=0;i<nums.length;i++){
-            if(nums[i] == num1){
-                count1++;
-            }else if(nums[i] == num2){
-                count2++;
-            }
-            
+        List<Integer> res = new ArrayList<>();
+        if(freqGreaterThanNb3(nums,val1) == true){
+            res.add(val1);
         }
-        if(count1 > majority){
-            res.add(num1);
+        if(val1 != val2 && freqGreaterThanNb3(nums,val2) == true){
+            res.add(val2);
         }
-        if(count2 > majority){
-            res.add(num2);
-        }
-       
         return res;
+    }
+    private boolean freqGreaterThanNb3(int[]nums,int val){
+        int count =0;
+        for(int i=0;i<nums.length;i++){
+            if(val == nums[i]){
+                count++;
+            }
+        }
+        if(count > nums.length/3){
+            return true;
+        }
+        return false;
     }
 }
