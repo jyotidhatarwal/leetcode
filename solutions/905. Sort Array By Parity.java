@@ -1,16 +1,21 @@
 class Solution {
-    public int[] sortArrayByParity(int[] A) {
+    public int[] sortArrayByParity(int[] nums) {
         int i=0;
-        int j=A.length-1;
-        while(i<j){
-            if(A[i] % 2 > A[j] % 2){
-                int temp = A[i];
-                A[i] = A[j];
-                A[j]=temp;
+        int j =0;
+        while(i < nums.length){
+            if(nums[i] % 2 == 0){
+                swap(nums,i,j);
+                i++;
+                j++;
+            }else{
+                i++;
             }
-            if(A[i]%2==0) i++;
-            if(A[j]%2==1) j--;
         }
-        return A;
-    }
+        return nums;
+    }
+    private void swap(int[] nums,int i,int j){
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
+    }
 }
