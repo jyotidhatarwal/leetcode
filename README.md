@@ -209,6 +209,7 @@
 |1051|[ Height Checker](https://leetcode.com/problems/height-checker/)|[Java](./solutions/1051.%20Height%20Checker.java)||
 |1089|[ Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)|[Java](./solutions/1089.%20Duplicate%20Zeros.java)|1 ms|
 |1091|[ Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|[Java](./solutions/1091.%20Shortest%20Path%20in%20Binary%20Matrix.java)|20 ms|
+|1094|[ Car Pooling](https://leetcode.com/problems/car-pooling/)|[Java](./solutions/1094.%20Car%20Pooling.java)|1 ms|
 |1145|[ Binary Tree Coloring Game](https://leetcode.com/problems/binary-tree-coloring-game/)|[Java](./solutions/1145.%20Binary%20Tree%20Coloring%20Game.java)|0 ms|
 |1162|[ As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/)|[Java](./solutions/1162.%20As%20Far%20from%20Land%20as%20Possible.java)|13 ms|
 |1178|[ Number of Valid Words for Each Puzzle](https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/)|[Java](./solutions/1178.%20Number%20of%20Valid%20Words%20for%20Each%20Puzzle.java)|1432 ms|
