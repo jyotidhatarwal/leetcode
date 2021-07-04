@@ -236,6 +236,7 @@
 |1680|[ Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/)|[Java](./solutions/1680.%20Concatenation%20of%20Consecutive%20Binary%20Numbers.java)|1814 ms|
 |1704|[ Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/)|[Java](./solutions/1704.%20Determine%20if%20String%20Halves%20Are%20Alike.java)|1 ms|
 |1721|[ Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)|[Java](./solutions/1721.%20Swapping%20Nodes%20in%20a%20Linked%20List.java)|2 ms|
+|1750|[ Minimum Length of String After Deleting Similar Ends](https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends/)|[Java](./solutions/1750.%20Minimum%20Length%20of%20String%20After%20Deleting%20Similar%20Ends.java)|4 ms|
 |1887|[ Reduction Operations to Make the Array Elements Equal](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal/)|[Java](./solutions/1887.%20Reduction%20Operations%20to%20Make%20the%20Array%20Elements%20Equal.java)|30 ms|
 |1897|[ Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/)|[Java](./solutions/1897.%20Redistribute%20Characters%20to%20Make%20All%20Strings%20Equal.java)|9 ms|
 |1899|[ Merge Triplets to Form Target Triplet](https://leetcode.com/problems/merge-triplets-to-form-target-triplet/)|[Java](./solutions/1899.%20Merge%20Triplets%20to%20Form%20Target%20Triplet.java)|1 ms|
