@@ -174,6 +174,7 @@
 |867|[ Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|[Java](./solutions/867.%20Transpose%20Matrix.java)|0 ms|
 |869|[ Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/)|[Java](./solutions/869.%20Reordered%20Power%20of%202.java)|1 ms|
 |876|[ Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Java](./solutions/876.%20Middle%20of%20the%20Linked%20List.java)|0 ms|
+|881|[ Boats to Save People](https://leetcode.com/problems/boats-to-save-people/)|[Java](./solutions/881.%20Boats%20to%20Save%20People.java)|19 ms|
 |895|[ Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)|[Java](./solutions/895.%20Maximum%20Frequency%20Stack.java)|57 ms|
 |899|[ Orderly Queue](https://leetcode.com/problems/orderly-queue/)|[Java](./solutions/899.%20Orderly%20Queue.java)|6 ms|
 |905|[ Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[Java](./solutions/905.%20Sort%20Array%20By%20Parity.java)|1 ms|
