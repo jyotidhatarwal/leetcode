@@ -138,6 +138,7 @@
 |628|[ Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)|[Java](./solutions/628.%20Maximum%20Product%20of%20Three%20Numbers.java)|2 ms|
 |630|[ Course Schedule III](https://leetcode.com/problems/course-schedule-iii/)|[Java](./solutions/630.%20Course%20Schedule%20III.java)|29 ms|
 |637|[ Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[Java](./solutions/637.%20Average%20of%20Levels%20in%20Binary%20Tree.java)|2 ms|
+|643|[ Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)|[Java](./solutions/643.%20Maximum%20Average%20Subarray%20I.java)|3 ms|
 |645|[ Set Mismatch](https://leetcode.com/problems/set-mismatch/)|[Java](./solutions/645.%20Set%20Mismatch.java)|15 ms|
 |647|[ Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|[Java](./solutions/647.%20Palindromic%20Substrings.java)|452 ms|
 |658|[ Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)|[Java](./solutions/658.%20Find%20K%20Closest%20Elements.java)|48 ms|
