@@ -62,6 +62,7 @@
 |144|[ Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[Java](./solutions/144.%20Binary%20Tree%20Preorder%20Traversal.java)|1 ms|
 |145|[ Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)|[Java](./solutions/145.%20Binary%20Tree%20Postorder%20Traversal.java)|0 ms|
 |148|[ Sort List](https://leetcode.com/problems/sort-list/)|[Java](./solutions/148.%20Sort%20List.java)|6 ms|
+|152|[ Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|[Java](./solutions/152.%20Maximum%20Product%20Subarray.java)|1 ms|
 |160|[ Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[Java](./solutions/160.%20Intersection%20of%20Two%20Linked%20Lists.java)|1 ms|
 |169|[ Majority Element](https://leetcode.com/problems/majority-element/)|[Java](./solutions/169.%20Majority%20Element.java)|2 ms|
 |191|[ Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[Java](./solutions/191.%20Number%20of%201%20Bits.java)||
