@@ -131,6 +131,7 @@
 |554|[ Brick Wall](https://leetcode.com/problems/brick-wall/)|[Java](./solutions/554.%20Brick%20Wall.java)|9 ms|
 |557|[ Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[Java](./solutions/557.%20Reverse%20Words%20in%20a%20String%20III.java)|12 ms|
 |560|[ Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[Java](./solutions/560.%20Subarray%20Sum%20Equals%20K.java)|30 ms|
+|566|[ Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)|[Java](./solutions/566.%20Reshape%20the%20Matrix.java)|0 ms|
 |575|[ Distribute Candies](https://leetcode.com/problems/distribute-candies/)|[Java](./solutions/575.%20Distribute%20Candies.java)|33 ms|
 |581|[ Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)|[Java](./solutions/581.%20Shortest%20Unsorted%20Continuous%20Subarray.java)|5 ms|
 |594|[ Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/)|[Java](./solutions/594.%20Longest%20Harmonious%20Subsequence.java)||
