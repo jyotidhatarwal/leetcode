@@ -1,17 +1,5 @@
 class Solution {
-    public boolean isHappy(int n) {
-      // boolean result = false;
-      //   while(true){
-      //      int ans = squareSum(n);
-      //       if(ans == 1){
-      //           result = true;
-      //           break;
-      //       }else{
-      //           n = squareSum(n);
-      //       }
-      //   }
-      //   return result;
-        
+    public boolean isHappy(int n) {        
         HashMap<Integer,Integer> map = new HashMap<>();
         boolean result = false;
         while(n >=1){
@@ -29,7 +17,7 @@ class Solution {
             }
         }
         return result;
-    }
+    }
     private int squareSum(int n){
         int ans =0;
         while(n > 0){
