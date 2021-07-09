@@ -3,23 +3,22 @@ class Solution {
         int i=0;
         int j=0;
         int k = nums.length-1;
-        while(i <=k){
-            if(nums[i] == 2){
-                swap(nums,i,k);
-                k--;
-            }else if(nums[i] ==0){
-                swap(nums,i,j);
+        while(j<=k){
+            if(nums[j] == 0){
+                int temp = nums[i];
+                nums[i] = nums[j];
+                nums[j] = temp;
                 i++;
                 j++;
+            }else if(nums[j] == 1){
+                j++;
             }else{
-                i++;
+                int temp = nums[j];
+                nums[j] = nums[k];
+                nums[k] = temp;
+                k--;
             }
         }
         
-    }
-    public void swap(int[] nums,int i ,int j){
-        int temp = nums[i];
-        nums[i] = nums[j];
-        nums[j] = temp;
     }
 }
