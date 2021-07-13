@@ -70,6 +70,7 @@
 |160|[ Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[Java](./solutions/160.%20Intersection%20of%20Two%20Linked%20Lists.java)|1 ms|
 |169|[ Majority Element](https://leetcode.com/problems/majority-element/)|[Java](./solutions/169.%20Majority%20Element.java)|2 ms|
 |176|[ Second Highest Salary](https://leetcode.com/problems/second-highest-salary/)|[MySQL](./solutions/176.%20Second%20Highest%20Salary.mysql)|157 ms|
+|177|[ Nth Highest Salary](https://leetcode.com/problems/nth-highest-salary/)|[MySQL](./solutions/177.%20Nth%20Highest%20Salary.mysql)|314 ms|
 |181|[ Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/)|[MySQL](./solutions/181.%20Employees%20Earning%20More%20Than%20Their%20Managers.mysql)|303 ms|
 |182|[ Duplicate Emails](https://leetcode.com/problems/duplicate-emails/)|[MySQL](./solutions/182.%20Duplicate%20Emails.mysql)|308 ms|
 |183|[ Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/)|[MySQL](./solutions/183.%20Customers%20Who%20Never%20Order.mysql)|385 ms|
