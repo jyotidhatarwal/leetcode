@@ -78,6 +78,7 @@
 |183|[ Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/)|[MySQL](./solutions/183.%20Customers%20Who%20Never%20Order.mysql)|385 ms|
 |184|[ Department Highest Salary](https://leetcode.com/problems/department-highest-salary/)|[MySQL](./solutions/184.%20Department%20Highest%20Salary.mysql)|450 ms|
 |191|[ Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[Java](./solutions/191.%20Number%20of%201%20Bits.java)||
+|196|[ Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/)|[MySQL](./solutions/196.%20Delete%20Duplicate%20Emails.mysql)|1663 ms|
 |198|[ House Robber](https://leetcode.com/problems/house-robber/)|[Java](./solutions/198.%20House%20Robber.java)|0 ms|
 |199|[ Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|[Java](./solutions/199.%20Binary%20Tree%20Right%20Side%20View.java)|1 ms|
 |200|[ Number of Islands](https://leetcode.com/problems/number-of-islands/)|[Java](./solutions/200.%20Number%20of%20Islands.java)|1 ms|
