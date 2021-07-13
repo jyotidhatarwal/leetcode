@@ -1,6 +1,9 @@
 class Solution {
     public int findMin(int[] nums) {
-        Arrays.sort(nums);
-        return nums[0];
+        int min = Integer.MAX_VALUE;
+        for(int val : nums){
+            min = Math.min(min,val);
+        }
+        return min;
     }
 }
