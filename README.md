@@ -156,6 +156,7 @@
 |581|[ Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)|[Java](./solutions/581.%20Shortest%20Unsorted%20Continuous%20Subarray.java)|5 ms|
 |594|[ Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/)|[Java](./solutions/594.%20Longest%20Harmonious%20Subsequence.java)||
 |601|[ Human Traffic of Stadium](https://leetcode.com/problems/human-traffic-of-stadium/)|[MySQL](./solutions/601.%20Human%20Traffic%20of%20Stadium.mysql)|279 ms|
+|620|[ Not Boring Movies](https://leetcode.com/problems/not-boring-movies/)|[MySQL](./solutions/620.%20Not%20Boring%20Movies.mysql)|181 ms|
 |622|[ Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)|[Java](./solutions/622.%20Design%20Circular%20Queue.java)||
 |623|[ Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/)|[Java](./solutions/623.%20Add%20One%20Row%20to%20Tree.java)|0 ms|
 |628|[ Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)|[Java](./solutions/628.%20Maximum%20Product%20of%20Three%20Numbers.java)|2 ms|
