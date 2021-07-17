@@ -125,6 +125,7 @@
 |392|[ Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[Java](./solutions/392.%20Is%20Subsequence.java)|1 ms|
 |407|[ Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/)|[Java](./solutions/407.%20Trapping%20Rain%20Water%20II.java)|16 ms|
 |410|[ Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)|[Java](./solutions/410.%20Split%20Array%20Largest%20Sum.java)|0 ms|
+|412|[ Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)|[Java](./solutions/412.%20Fizz%20Buzz.java)|1 ms|
 |413|[ Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)|[Java](./solutions/413.%20Arithmetic%20Slices.java)|0 ms|
 |414|[ Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|[Java](./solutions/414.%20Third%20Maximum%20Number.java)|2 ms|
 |417|[ Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)|[Java](./solutions/417.%20Pacific%20Atlantic%20Water%20Flow.java)|10 ms|
