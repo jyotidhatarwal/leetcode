@@ -1,23 +1,26 @@
 class Solution {
     public int maxProfit(int[] prices, int fee) {
-    int oldBuy = -prices[0];
-        int oldSell =0;
+        int oldBoughtStateProfit = -prices[0];
+        int oldSoldStateProfit = 0;
         for(int i=1;i<prices.length;i++){
-            int newBuy = 0;
-            int newSell=0;
-            if(oldSell - prices[i] > oldBuy){
-                newBuy = oldSell -prices[i];
+            int newBoughtStateProfit =0;
+            int newSoldStateProfit =0;
+            // if bought today will it be profitable
+            if(oldSoldStateProfit - prices[i] > oldBoughtStateProfit){
+                newBoughtStateProfit = oldSoldStateProfit - prices[i];
             }else{
-                newBuy = oldBuy;
+                newBoughtStateProfit = oldBoughtStateProfit;
             }
-            if(oldBuy + prices[i] -fee > oldSell){
-                newSell = oldBuy +prices[i] -fee;
-            }else{
-                newSell = oldSell;
+            // if sold today will it be profitable
+            if(oldBoughtStateProfit + prices[i] - fee > oldSoldStateProfit){
+                newSoldStateProfit = oldBoughtStateProfit + prices[i] - fee;
+            } else{
+                newSoldStateProfit = oldSoldStateProfit;
             }
-            oldBuy = newBuy;
-            oldSell = newSell;
+            oldBoughtStateProfit = newBoughtStateProfit;
+            oldSoldStateProfit = newSoldStateProfit;
         }
-        return oldSell;
+        return oldSoldStateProfit;
+    
     }
 }
