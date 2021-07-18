@@ -5,7 +5,7 @@ class Solution {
         int leastSoFar = prices[0];
         int[] maxProfitIfSoldUptoToday = new int[prices.length];
         
-        // calculating maximum profit if sold utp today
+        // calculating maximum profit if sold upto today
         for(int i=1;i<prices.length;i++){
             if(prices[i] < leastSoFar){
                 leastSoFar = prices[i];
@@ -18,6 +18,7 @@ class Solution {
             }
         }
         
+        // calculating maximum profit if bought uptill today i.e today or after today
         int profitIfBoughtToday = 0;
         int maxSoFar = prices[prices.length-1];
         
@@ -33,6 +34,8 @@ class Solution {
                  maxProfitIfBoughtTodayOrAfterToday[i] =  maxProfitIfBoughtTodayOrAfterToday[i+1];
             }
         }
+        
+         // the maximum sum of profit if sold upto today and profit if bought today or after today is              // the desired answer
         int overallProfit =0;
         for(int i=0;i<prices.length;i++){
             if(maxProfitIfSoldUptoToday[i] + maxProfitIfBoughtTodayOrAfterToday[i] > overallProfit){
