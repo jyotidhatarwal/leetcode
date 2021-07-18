@@ -1,32 +1,47 @@
 class Solution {
     public int maxProfit(int[] prices) {
-        int oldBuy =-prices[0];
-        int oldSell=0;
-        int oldCool =0;
-        for(int i=1;i<prices.length;i++){
-            int newBuy =0;
-            int newSell=0;
-            int newCool=0;
-            if(oldCool -prices[i] >oldBuy){
-                newBuy = oldCool -prices[i];
+        int oldBoughtStateProfit = -prices[0];
+        int oldSoldStateProfit =0;
+        int oldCooledStateProfit =0;
+        for(int i=0;i<prices.length;i++){
+            int newBoughtStateProfit =0;
+            int newSoldStateProfit =0;
+            int newCooledStateProfit =0;
+            
+            // if bought today will the profit is maximized
+            
+            // buying is taking place after a cooldown
+            if(oldCooledStateProfit - prices[i] > oldBoughtStateProfit){
+                newBoughtStateProfit = oldCooledStateProfit - prices[i];
             }else{
-                newBuy = oldBuy;
+                newBoughtStateProfit = oldBoughtStateProfit;
             }
-            if(oldBuy + prices[i] > oldSell){
-                newSell = oldBuy + prices[i];
+            
+            
+            // if sold today will the profit is maximized
+            
+            // selling can take place ater a buy
+            
+            if(oldBoughtStateProfit + prices[i] > oldSoldStateProfit){
+                newSoldStateProfit = oldBoughtStateProfit + prices[i];
             }else{
-                newSell = oldSell;
+                newSoldStateProfit = oldSoldStateProfit;
             }
-            if(oldSell > oldCool){
-                newCool = oldSell;
+            
+            // if cooled today will the profit is maximized
+            
+            // cool down can take place after a  sell
+            
+            if(oldSoldStateProfit > oldCooledStateProfit){
+                newCooledStateProfit = oldSoldStateProfit;
             }else{
-                newCool = oldCool;
+                newCooledStateProfit = oldCooledStateProfit;
             }
-            oldBuy = newBuy;
-            oldSell = newSell;
-            oldCool = newCool;
+            
+         oldBoughtStateProfit =  newBoughtStateProfit;
+         oldSoldStateProfit =    newSoldStateProfit;
+         oldCooledStateProfit =  newCooledStateProfit;
         }
-        return oldSell;
-        
+        return oldSoldStateProfit;
     }
 }
