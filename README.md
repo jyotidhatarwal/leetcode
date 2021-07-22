@@ -109,7 +109,7 @@
 |290|[ Word Pattern](https://leetcode.com/problems/word-pattern/)|[Java](./solutions/290.%20Word%20Pattern.java)|1 ms|
 |295|[ Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)|[Java](./solutions/295.%20Find%20Median%20from%20Data%20Stream.java)|59 ms|
 |297|[ Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|[Java](./solutions/297.%20Serialize%20and%20Deserialize%20Binary%20Tree.java)|12 ms|
-|300|[ Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|[Java](./solutions/300.%20Longest%20Increasing%20Subsequence.java)|2 ms|
+|300|[ Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|[Java](./solutions/300.%20Longest%20Increasing%20Subsequence.java)|60 ms|
 |309|[ Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)|[Java](./solutions/309.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Cooldown.java)|1 ms|
 |319|[ Bulb Switcher](https://leetcode.com/problems/bulb-switcher/)|[Java](./solutions/319.%20Bulb%20Switcher.java)|0 ms|
 |322|[ Coin Change](https://leetcode.com/problems/coin-change/)|[Java](./solutions/322.%20Coin%20Change.java)|12 ms|
