@@ -9,6 +9,7 @@
 |6|[ ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)|[Java](./solutions/6.%20ZigZag%20Conversion.java)|5 ms|
 |7|[ Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[Java](./solutions/7.%20Reverse%20Integer.java)|1 ms|
 |9|[ Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[Java](./solutions/9.%20Palindrome%20Number.java)|6 ms|
+|10|[ Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)|[Java](./solutions/10.%20Regular%20Expression%20Matching.java)|2 ms|
 |11|[ Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[Java](./solutions/11.%20Container%20With%20Most%20Water.java)|4 ms|
 |12|[ Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|[Java](./solutions/12.%20Integer%20to%20Roman.java)|9 ms|
 |13|[ Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[Java](./solutions/13.%20Roman%20to%20Integer.java)|5 ms|
