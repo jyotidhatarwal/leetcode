@@ -1,13 +1,15 @@
 class Solution {
     public int dominantIndex(int[] nums) {
-        int maxIndex=0;
-        for(int i=0;i<nums.length;i++){
+        int n = nums.length;
+        int maxIndex =0;
+        
+        for(int i=0;i<n;i++){
             if(nums[i] > nums[maxIndex]){
                 maxIndex =i;
             }
         }
-        for(int i=0;i<nums.length;i++){
-            if(maxIndex != i && nums[maxIndex] <2*nums[i]){
+        for(int i=0;i<n;i++){
+            if(maxIndex != i && 2*nums[i] > nums[maxIndex]){
                 return -1;
             }
         }
