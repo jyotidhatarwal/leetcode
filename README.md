@@ -201,7 +201,7 @@
 |786|[ K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/)|[Java](./solutions/786.%20K-th%20Smallest%20Prime%20Fraction.java)|198 ms|
 |787|[ Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)|[Java](./solutions/787.%20Cheapest%20Flights%20Within%20K%20Stops.java)|18 ms|
 |790|[ Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling/)|[Java](./solutions/790.%20Domino%20and%20Tromino%20Tiling.java)|0 ms|
-|795|[ Number of Subarrays with Bounded Maximum](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum/)|[Java](./solutions/795.%20Number%20of%20Subarrays%20with%20Bounded%20Maximum.java)|5 ms|
+|795|[ Number of Subarrays with Bounded Maximum](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum/)|[Java](./solutions/795.%20Number%20of%20Subarrays%20with%20Bounded%20Maximum.java)|4 ms|
 |802|[ Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/)|[Java](./solutions/802.%20Find%20Eventual%20Safe%20States.java)|7 ms|
 |803|[ Bricks Falling When Hit](https://leetcode.com/problems/bricks-falling-when-hit/)|[Java](./solutions/803.%20Bricks%20Falling%20When%20Hit.java)|27 ms|
 |815|[ Bus Routes](https://leetcode.com/problems/bus-routes/)|[Java](./solutions/815.%20Bus%20Routes.java)|47 ms|
