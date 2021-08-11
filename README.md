@@ -147,6 +147,7 @@
 |450|[ Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)|[Java](./solutions/450.%20Delete%20Node%20in%20a%20BST.java)|0 ms|
 |452|[ Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)|[Java](./solutions/452.%20Minimum%20Number%20of%20Arrows%20to%20Burst%20Balloons.java)|14 ms|
 |454|[ 4Sum II](https://leetcode.com/problems/4sum-ii/)|[Java](./solutions/454.%204Sum%20II.java)|62 ms|
+|456|[ 132 Pattern](https://leetcode.com/problems/132-pattern/)|[Java](./solutions/456.%20132%20Pattern.java)|11 ms|
 |463|[ Island Perimeter](https://leetcode.com/problems/island-perimeter/)|[Java](./solutions/463.%20Island%20Perimeter.java)|5 ms|
 |474|[ Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)|[Java](./solutions/474.%20Ones%20and%20Zeroes.java)|33 ms|
 |478|[ Generate Random Point in a Circle](https://leetcode.com/problems/generate-random-point-in-a-circle/)|[Java](./solutions/478.%20Generate%20Random%20Point%20in%20a%20Circle.java)|191 ms|
