@@ -198,6 +198,7 @@
 |769|[ Max Chunks To Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/)|[Java](./solutions/769.%20Max%20Chunks%20To%20Make%20Sorted.java)|0 ms|
 |775|[ Global and Local Inversions](https://leetcode.com/problems/global-and-local-inversions/)|[Java](./solutions/775.%20Global%20and%20Local%20Inversions.java)|1 ms|
 |778|[ Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/)|[Java](./solutions/778.%20Swim%20in%20Rising%20Water.java)|12 ms|
+|780|[ Reaching Points](https://leetcode.com/problems/reaching-points/)|[Java](./solutions/780.%20Reaching%20Points.java)|0 ms|
 |781|[ Rabbits in Forest](https://leetcode.com/problems/rabbits-in-forest/)|[Java](./solutions/781.%20Rabbits%20in%20Forest.java)|2 ms|
 |784|[ Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)|[Java](./solutions/784.%20Letter%20Case%20Permutation.java)||
 |785|[ Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)|[Java](./solutions/785.%20Is%20Graph%20Bipartite%3F.java)|1 ms|
