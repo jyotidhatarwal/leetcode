@@ -1,19 +1,10 @@
 class Solution {
     public int findDuplicate(int[] nums) {
-        int slow = nums[0];
-        int fast = nums[0];
-        do{
-            slow = nums[slow];
-            fast = nums[nums[fast]];
+        while(nums[0] != nums[nums[0]]){
+            int next = nums[nums[0]];
+            nums[nums[0]] = nums[0];
+            nums[0] = next;
         }
-        while(slow != fast);
-            fast = nums[0];
-            while(slow != fast){
-                fast = nums[fast];
-                slow = nums[slow];
-            }
-        
-        return slow;
+        return nums[0];
     }
 }
-/* This is the most optimized approach with Time Complexity O(n) and Space Complexity  O(1) */
