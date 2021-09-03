@@ -287,6 +287,7 @@
 |1461|[ Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)|[Java](./solutions/1461.%20Check%20If%20a%20String%20Contains%20All%20Binary%20Codes%20of%20Size%20K.java)|81 ms|
 |1497|[ Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/)|[Java](./solutions/1497.%20Check%20If%20Array%20Pairs%20Are%20Divisible%20by%20k.java)|N/A|
 |1502|[ Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)|[Java](./solutions/1502.%20Can%20Make%20Arithmetic%20Progression%20From%20Sequence.java)|1 ms|
+|1512|[ Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)|[Java](./solutions/1512.%20Number%20of%20Good%20Pairs.java)|2 ms|
 |1551|[ Minimum Operations to Make Array Equal](https://leetcode.com/problems/minimum-operations-to-make-array-equal/)|[Java](./solutions/1551.%20Minimum%20Operations%20to%20Make%20Array%20Equal.java)|1 ms|
 |1579|[ Remove Max Number of Edges to Keep Graph Fully Traversable](https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/)|[Java](./solutions/1579.%20Remove%20Max%20Number%20of%20Edges%20to%20Keep%20Graph%20Fully%20Traversable.java)|47 ms|
 |1584|[ Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)|[Java](./solutions/1584.%20Min%20Cost%20to%20Connect%20All%20Points.java)|82 ms|
