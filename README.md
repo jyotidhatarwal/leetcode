@@ -36,6 +36,7 @@
 |50|[ Pow(x, n)](https://leetcode.com/problems/powx-n/)|[Java](./solutions/50.%20Pow(x%2C%20n).java)|0 ms|
 |52|[ N-Queens II](https://leetcode.com/problems/n-queens-ii/)|[Java](./solutions/52.%20N-Queens%20II.java)|2 ms|
 |53|[ Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Java](./solutions/53.%20Maximum%20Subarray.java)|1 ms|
+|54|[ Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[Java](./solutions/54.%20Spiral%20Matrix.java)|0 ms|
 |56|[ Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[Java](./solutions/56.%20Merge%20Intervals.java)|5 ms|
 |57|[ Insert Interval](https://leetcode.com/problems/insert-interval/)|[Java](./solutions/57.%20Insert%20Interval.java)|1 ms|
 |58|[ Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|[Java](./solutions/58.%20Length%20of%20Last%20Word.java)|0 ms|
