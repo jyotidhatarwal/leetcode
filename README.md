@@ -262,6 +262,7 @@
 |1004|[ Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)|[Java](./solutions/1004.%20Max%20Consecutive%20Ones%20III.java)|2 ms|
 |1007|[ Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/)|[Java](./solutions/1007.%20Minimum%20Domino%20Rotations%20For%20Equal%20Row.java)|4 ms|
 |1008|[ Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)|[Java](./solutions/1008.%20Construct%20Binary%20Search%20Tree%20from%20Preorder%20Traversal.java)|0 ms|
+|1010|[ Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|[Java](./solutions/1010.%20Pairs%20of%20Songs%20With%20Total%20Durations%20Divisible%20by%2060.java)|5 ms|
 |1011|[ Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)|[Java](./solutions/1011.%20Capacity%20To%20Ship%20Packages%20Within%20D%20Days.java)|9 ms|
 |1016|[ Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/)|[Java](./solutions/1016.%20Binary%20String%20With%20Substrings%20Representing%201%20To%20N.java)|0 ms|
 |1020|[ Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)|[Java](./solutions/1020.%20Number%20of%20Enclaves.java)|7 ms|
