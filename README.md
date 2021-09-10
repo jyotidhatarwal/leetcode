@@ -53,7 +53,7 @@
 |79|[ Word Search](https://leetcode.com/problems/word-search/)|[Java](./solutions/79.%20Word%20Search.java)|62 ms|
 |81|[ Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|[Java](./solutions/81.%20Search%20in%20Rotated%20Sorted%20Array%20II.java)|1 ms|
 |83|[ Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Java](./solutions/83.%20Remove%20Duplicates%20from%20Sorted%20List.java)|0 ms|
-|84|[ Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)|[Java](./solutions/84.%20Largest%20Rectangle%20in%20Histogram.java)|30 ms|
+|84|[ Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)|[Java](./solutions/84.%20Largest%20Rectangle%20in%20Histogram.java)|49 ms|
 |88|[ Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Java](./solutions/88.%20Merge%20Sorted%20Array.java)|0 ms|
 |89|[ Gray Code](https://leetcode.com/problems/gray-code/)|[Java](./solutions/89.%20Gray%20Code.java)|35 ms|
 |94|[ Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[Java](./solutions/94.%20Binary%20Tree%20Inorder%20Traversal.java)|0 ms|
