@@ -195,6 +195,7 @@
 |647|[ Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|[Java](./solutions/647.%20Palindromic%20Substrings.java)|12 ms|
 |658|[ Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)|[Java](./solutions/658.%20Find%20K%20Closest%20Elements.java)|48 ms|
 |667|[ Beautiful Arrangement II](https://leetcode.com/problems/beautiful-arrangement-ii/)|[Java](./solutions/667.%20Beautiful%20Arrangement%20II.java)|0 ms|
+|678|[ Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)|[Java](./solutions/678.%20Valid%20Parenthesis%20String.java)|0 ms|
 |684|[ Redundant Connection](https://leetcode.com/problems/redundant-connection/)|[Java](./solutions/684.%20Redundant%20Connection.java)|0 ms|
 |685|[ Redundant Connection II](https://leetcode.com/problems/redundant-connection-ii/)|[Java](./solutions/685.%20Redundant%20Connection%20II.java)|1 ms|
 |695|[ Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|[Java](./solutions/695.%20Max%20Area%20of%20Island.java)|2 ms|
