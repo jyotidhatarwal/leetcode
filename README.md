@@ -201,6 +201,7 @@
 |714|[ Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)|[Java](./solutions/714.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Transaction%20Fee.java)|4 ms|
 |724|[ Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[Java](./solutions/724.%20Find%20Pivot%20Index.java)||
 |730|[ Count Different Palindromic Subsequences](https://leetcode.com/problems/count-different-palindromic-subsequences/)|[Java](./solutions/730.%20Count%20Different%20Palindromic%20Subsequences.java)|50 ms|
+|739|[ Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|[Java](./solutions/739.%20Daily%20Temperatures.java)|60 ms|
 |746|[ Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[Java](./solutions/746.%20Min%20Cost%20Climbing%20Stairs.java)|0 ms|
 |763|[ Partition Labels](https://leetcode.com/problems/partition-labels/)|[Java](./solutions/763.%20Partition%20Labels.java)|5 ms|
 |768|[ Max Chunks To Make Sorted II](https://leetcode.com/problems/max-chunks-to-make-sorted-ii/)|[Java](./solutions/768.%20Max%20Chunks%20To%20Make%20Sorted%20II.java)|1 ms|
