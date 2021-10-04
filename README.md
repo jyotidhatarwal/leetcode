@@ -38,6 +38,7 @@
 |44|[ Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)|[Java](./solutions/44.%20Wildcard%20Matching.java)|30 ms|
 |45|[ Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Java](./solutions/45.%20Jump%20Game%20II.java)|2 ms|
 |46|[ Permutations](https://leetcode.com/problems/permutations/)|[Java](./solutions/46.%20Permutations.java)|3 ms|
+|47|[ Permutations II](https://leetcode.com/problems/permutations-ii/)|[Java](./solutions/47.%20Permutations%20II.java)|4 ms|
 |48|[ Rotate Image](https://leetcode.com/problems/rotate-image/)|[Java](./solutions/48.%20Rotate%20Image.java)|0 ms|
 |49|[ Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[Java](./solutions/49.%20Group%20Anagrams.java)|46 ms|
 |50|[ Pow(x, n)](https://leetcode.com/problems/powx-n/)|[Java](./solutions/50.%20Pow(x%2C%20n).java)|0 ms|
