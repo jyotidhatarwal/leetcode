@@ -15,7 +15,7 @@ class Solution {
     private boolean dfs(char[][]board,int i,int j,boolean[][]visited,String word,int idx){
         if(idx == word.length() -1){
             return true;
-        }
+        }
         visited[i][j] = true;
         // top
         if(i > 0 && visited[i-1][j] == false && board[i-1][j] == word.charAt(idx+1) && dfs(board,i-1,j,visited,word,idx+1)){
