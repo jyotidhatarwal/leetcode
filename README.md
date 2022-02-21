@@ -126,6 +126,7 @@
 |207|[ Course Schedule](https://leetcode.com/problems/course-schedule/)|[Java](./solutions/207.%20Course%20Schedule.java)|4 ms|
 |210|[ Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)|[Java](./solutions/210.%20Course%20Schedule%20II.java)|4 ms|
 |215|[ Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[Java](./solutions/215.%20Kth%20Largest%20Element%20in%20an%20Array.java)|4 ms|
+|217|[ Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Java](./solutions/217.%20Contains%20Duplicate.java)|41 ms|
 |222|[ Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)|[Java](./solutions/222.%20Count%20Complete%20Tree%20Nodes.java)|0 ms|
 |224|[ Basic Calculator](https://leetcode.com/problems/basic-calculator/)|[Java](./solutions/224.%20Basic%20Calculator.java)|5 ms|
 |229|[ Majority Element II](https://leetcode.com/problems/majority-element-ii/)|[Java](./solutions/229.%20Majority%20Element%20II.java)|1 ms|
