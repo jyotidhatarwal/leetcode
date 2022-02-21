@@ -217,6 +217,7 @@
 |695|[ Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|[Java](./solutions/695.%20Max%20Area%20of%20Island.java)|2 ms|
 |696|[ Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/)|[Java](./solutions/696.%20Count%20Binary%20Substrings.java)|9 ms|
 |703|[ Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|[Java](./solutions/703.%20Kth%20Largest%20Element%20in%20a%20Stream.java)|18 ms|
+|704|[ Binary Search](https://leetcode.com/problems/binary-search/)|[Java](./solutions/704.%20Binary%20Search.java)|0 ms|
 |714|[ Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)|[Java](./solutions/714.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Transaction%20Fee.java)|4 ms|
 |724|[ Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[Java](./solutions/724.%20Find%20Pivot%20Index.java)||
 |730|[ Count Different Palindromic Subsequences](https://leetcode.com/problems/count-different-palindromic-subsequences/)|[Java](./solutions/730.%20Count%20Different%20Palindromic%20Subsequences.java)|50 ms|
