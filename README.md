@@ -236,7 +236,7 @@
 |780|[ Reaching Points](https://leetcode.com/problems/reaching-points/)|[Java](./solutions/780.%20Reaching%20Points.java)|0 ms|
 |781|[ Rabbits in Forest](https://leetcode.com/problems/rabbits-in-forest/)|[Java](./solutions/781.%20Rabbits%20in%20Forest.java)|2 ms|
 |784|[ Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)|[Java](./solutions/784.%20Letter%20Case%20Permutation.java)||
-|785|[ Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)|[Java](./solutions/785.%20Is%20Graph%20Bipartite%3F.java)|1 ms|
+|785|[ Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)|[Java](./solutions/785.%20Is%20Graph%20Bipartite%3F.java)|2 ms|
 |786|[ K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/)|[Java](./solutions/786.%20K-th%20Smallest%20Prime%20Fraction.java)|198 ms|
 |787|[ Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)|[Java](./solutions/787.%20Cheapest%20Flights%20Within%20K%20Stops.java)|18 ms|
 |790|[ Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling/)|[Java](./solutions/790.%20Domino%20and%20Tromino%20Tiling.java)|0 ms|
