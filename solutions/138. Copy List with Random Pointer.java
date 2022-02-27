@@ -15,26 +15,26 @@ class Node {
 ​
 class Solution {
     public Node copyRandomList(Node head) {
-        if (head == null) return null;
-  
-  Map<Node, Node> map = new HashMap<Node, Node>();
-  
-  // loop 1. copy all the nodes
-  Node node = head;
-  while (node != null) {
-    map.put(node, new Node(node.val));
-    node = node.next;
-  }
-  
-  // loop 2. assign next and random pointers
-  node = head;
-  while (node != null) {
-    map.get(node).next = map.get(node.next);
-    map.get(node).random = map.get(node.random);
-    node = node.next;
-  }
-  
-  return map.get(head);
-        
+        HashMap<Node,Node> map = new HashMap<>();
+        Node dummy = new Node(-1);
+        Node prev = dummy;
+        Node curr = head;
+        while(curr != null){
+            Node node = new Node(curr.val);
+            prev.next = node;
+            map.put(curr,node);
+            prev = prev.next;
+            curr = curr.next;
+        }
+        curr = head;
+        dummy = dummy.next;
+        Node c1 = head;
+        Node c2 = dummy;
+        while(c1 != null){
+            c2.random = (c1.random != null ? map.get(c1.random) : null);
+            c1 = c1.next;
+            c2 = c2.next;
+        }
+        return dummy;
     }
 }
