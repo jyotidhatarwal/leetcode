@@ -3,6 +3,12 @@
  * @return {string}
  */
 var removeOuterParentheses = function(s) {
+    /* 
+    If ( -> push in the stack
+    if ) -> pop from stack
+    and check the length of stack if 1 then ignore that element
+    if length of stack > 1 then add that element to ans string
+     */
     let stack = [];
     let n = s.length;
     let ans = "";
